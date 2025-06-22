@@ -1,0 +1,3735 @@
+Generated Questions from folder: operand_patterns
+------------------------------------------------------------
+
+File: add_chlg.txt
+--------------------------------------------------
+1. Pattern: 50000:500000+50000:500000
+   Question: 363273 + 352638
+   → Answer: 715911
+2. Pattern: 50000:500000+50000:500000
+   Question: 296982 + 194208
+   → Answer: 491190
+3. Pattern: 50000:500000+50000:500000
+   Question: 218618 + 349445
+   → Answer: 568063
+4. Pattern: 50000:500000+50000:500000
+   Question: 448312 + 428969
+   → Answer: 877281
+5. Pattern: 50000:500000+50000:500000
+   Question: 113379 + 460307
+   → Answer: 573686
+6. Pattern: 50000:500000+50000:500000
+   Question: 271430 + 443602
+   → Answer: 715032
+7. Pattern: 50000:500000+50000:500000
+   Question: 443909 + 207191
+   → Answer: 651100
+8. Pattern: 50000:500000+50000:500000
+   Question: 344625 + 85103
+   → Answer: 429728
+9. Pattern: 50000:500000+50000:500000
+   Question: 475377 + 485442
+   → Answer: 960819
+10. Pattern: 50000:500000+50000:500000
+   Question: 170955 + 450926
+   → Answer: 621881
+11. Pattern: 50000:500000+50000:500000
+   Question: 493297 + 93511
+   → Answer: 586808
+12. Pattern: 50000:500000+50000:500000
+   Question: 301017 + 273781
+   → Answer: 574798
+13. Pattern: 50000:500000+50000:500000
+   Question: 172965 + 276772
+   → Answer: 449737
+14. Pattern: 50000:500000+50000:500000
+   Question: 332376 + 68971
+   → Answer: 401347
+15. Pattern: 50000:500000+50000:500000
+   Question: 429224 + 139638
+   → Answer: 568862
+16. Pattern: 50000:500000+50000:500000
+   Question: 471313 + 469708
+   → Answer: 941021
+17. Pattern: 50000:500000+50000:500000
+   Question: 233982 + 153229
+   → Answer: 387211
+18. Pattern: 50000:500000+50000:500000
+   Question: 239577 + 128888
+   → Answer: 368465
+19. Pattern: 50000:500000+50000:500000
+   Question: 429261 + 391281
+   → Answer: 820542
+20. Pattern: 50000:500000+50000:500000
+   Question: 100666 + 278219
+   → Answer: 378885
+21. Pattern: 50000:500000+50000:500000
+   Question: 294412 + 405901
+   → Answer: 700313
+22. Pattern: 50000:500000+50000:500000
+   Question: 181995 + 357401
+   → Answer: 539396
+23. Pattern: 50000:500000+50000:500000
+   Question: 248859 + 226012
+   → Answer: 474871
+24. Pattern: 50000:500000+50000:500000
+   Question: 491583 + 179896
+   → Answer: 671479
+25. Pattern: 50000:500000+50000:500000
+   Question: 265266 + 440613
+   → Answer: 705879
+26. Pattern: 50000:500000+50000:500000
+   Question: 242105 + 94726
+   → Answer: 336831
+27. Pattern: 50000:500000+50000:500000
+   Question: 52716 + 178764
+   → Answer: 231480
+28. Pattern: 50000:500000+50000:500000
+   Question: 426462 + 66856
+   → Answer: 493318
+29. Pattern: 50000:500000+50000:500000
+   Question: 278684 + 299492
+   → Answer: 578176
+30. Pattern: 50000:500000+50000:500000
+   Question: 202205 + 290675
+   → Answer: 492880
+31. Pattern: 50000:500000+50000:500000
+   Question: 186309 + 278052
+   → Answer: 464361
+32. Pattern: 50000:500000+50000:500000
+   Question: 364805 + 190518
+   → Answer: 555323
+33. Pattern: 50000:500000+50000:500000
+   Question: 55631 + 123218
+   → Answer: 178849
+34. Pattern: 50000:500000+50000:500000
+   Question: 232611 + 112072
+   → Answer: 344683
+35. Pattern: 50000:500000+50000:500000
+   Question: 73080 + 388573
+   → Answer: 461653
+36. Pattern: 50000:500000+50000:500000
+   Question: 87269 + 421442
+   → Answer: 508711
+37. Pattern: 50000:500000+50000:500000
+   Question: 219992 + 194422
+   → Answer: 414414
+38. Pattern: 50000:500000+50000:500000
+   Question: 71429 + 321417
+   → Answer: 392846
+39. Pattern: 50000:500000+50000:500000
+   Question: 480919 + 217857
+   → Answer: 698776
+40. Pattern: 50000:500000+50000:500000
+   Question: 118511 + 151962
+   → Answer: 270473
+41. Pattern: 50000:500000+50000:500000
+   Question: 341404 + 395653
+   → Answer: 737057
+42. Pattern: 50000:500000+50000:500000
+   Question: 283873 + 380089
+   → Answer: 663962
+43. Pattern: 50000:500000+50000:500000
+   Question: 419386 + 188755
+   → Answer: 608141
+44. Pattern: 50000:500000+50000:500000
+   Question: 413275 + 312835
+   → Answer: 726110
+45. Pattern: 50000:500000+50000:500000
+   Question: 448671 + 70152
+   → Answer: 518823
+46. Pattern: 50000:500000+50000:500000
+   Question: 326072 + 477177
+   → Answer: 803249
+47. Pattern: 50000:500000+50000:500000
+   Question: 293069 + 77190
+   → Answer: 370259
+48. Pattern: 50000:500000+50000:500000
+   Question: 477329 + 223968
+   → Answer: 701297
+49. Pattern: 50000:500000+50000:500000
+   Question: 167009 + 97203
+   → Answer: 264212
+50. Pattern: 50000:500000+50000:500000
+   Question: 365580 + 386295
+   → Answer: 751875
+
+File: add_easy.txt
+--------------------------------------------------
+1. Pattern: 1:9+9
+   Question: 7 + 9
+   → Answer: 16
+2. Pattern: 2:9+8
+   Question: 4 + 8
+   → Answer: 12
+3. Pattern: 3:9+7
+   Question: 3 + 7
+   → Answer: 10
+4. Pattern: 4:9+6
+   Question: 5 + 6
+   → Answer: 11
+5. Pattern: 5:9+5
+   Question: 6 + 5
+   → Answer: 11
+6. Pattern: 6:9+4
+   Question: 6 + 4
+   → Answer: 10
+7. Pattern: 7:9+3
+   Question: 7 + 3
+   → Answer: 10
+8. Pattern: 8,9+2,1
+   Question: 8 + 2
+   → Answer: 10
+9. Pattern: 1:9+10
+   Question: 3 + 10
+   → Answer: 13
+10. Pattern: 1:9+20
+   Question: 2 + 20
+   → Answer: 22
+11. Pattern: 10+10,20
+   Question: 10 + 20
+   → Answer: 30
+12. Pattern: 20+10,20
+   Question: 20 + 20
+   → Answer: 40
+13. Pattern: 1:9+30
+   Question: 3 + 30
+   → Answer: 33
+14. Pattern: 1:9+40
+   Question: 3 + 40
+   → Answer: 43
+15. Pattern: 1:9+50
+   Question: 2 + 50
+   → Answer: 52
+16. Pattern: 10+10,20,30
+   Question: 10 + 30
+   → Answer: 40
+17. Pattern: 20+10,20,30
+   Question: 20 + 30
+   → Answer: 50
+18. Pattern: 30+10,20,30
+   Question: 30 + 30
+   → Answer: 60
+19. Pattern: 10+10,20,30,40,50
+   Question: 10 + 40
+   → Answer: 50
+20. Pattern: 20+10,20,30,40,50
+   Question: 20 + 30
+   → Answer: 50
+21. Pattern: 30+10,20,30,40,50
+   Question: 30 + 50
+   → Answer: 80
+22. Pattern: 40+10,20,30,40,50
+   Question: 40 + 20
+   → Answer: 60
+23. Pattern: 50+10,20,30,40,50
+   Question: 50 + 20
+   → Answer: 70
+24. Pattern: 1:9+9
+   Question: 4 + 9
+   → Answer: 13
+25. Pattern: 2:9+8
+   Question: 2 + 8
+   → Answer: 10
+26. Pattern: 3:9+7
+   Question: 5 + 7
+   → Answer: 12
+27. Pattern: 4:9+6
+   Question: 5 + 6
+   → Answer: 11
+28. Pattern: 5:9+5
+   Question: 7 + 5
+   → Answer: 12
+29. Pattern: 6:9+4
+   Question: 8 + 4
+   → Answer: 12
+30. Pattern: 7:9+3
+   Question: 7 + 3
+   → Answer: 10
+31. Pattern: 8,9+2,1
+   Question: 8 + 1
+   → Answer: 9
+32. Pattern: 1:9+10
+   Question: 3 + 10
+   → Answer: 13
+33. Pattern: 1:9+20
+   Question: 3 + 20
+   → Answer: 23
+34. Pattern: 10+10,20
+   Question: 10 + 10
+   → Answer: 20
+35. Pattern: 20+10,20
+   Question: 20 + 10
+   → Answer: 30
+36. Pattern: 1:9+30
+   Question: 6 + 30
+   → Answer: 36
+37. Pattern: 1:9+40
+   Question: 8 + 40
+   → Answer: 48
+38. Pattern: 1:9+50
+   Question: 4 + 50
+   → Answer: 54
+39. Pattern: 10+10,20,30
+   Question: 10 + 30
+   → Answer: 40
+40. Pattern: 20+10,20,30
+   Question: 20 + 20
+   → Answer: 40
+41. Pattern: 30+10,20,30
+   Question: 30 + 30
+   → Answer: 60
+42. Pattern: 10+10,20,30,40,50
+   Question: 10 + 20
+   → Answer: 30
+43. Pattern: 20+10,20,30,40,50
+   Question: 20 + 50
+   → Answer: 70
+44. Pattern: 30+10,20,30,40,50
+   Question: 30 + 10
+   → Answer: 40
+45. Pattern: 40+10,20,30,40,50
+   Question: 40 + 30
+   → Answer: 70
+46. Pattern: 50+10,20,30,40,50
+   Question: 50 + 20
+   → Answer: 70
+
+File: add_hard.txt
+--------------------------------------------------
+1. Pattern: 20:99+99:200
+   Question: 80 + 112
+   → Answer: 192
+2. Pattern: 20:99+99:200
+   Question: 62 + 122
+   → Answer: 184
+3. Pattern: 20:99+99:200
+   Question: 94 + 145
+   → Answer: 239
+4. Pattern: 20:99+99:200
+   Question: 46 + 153
+   → Answer: 199
+5. Pattern: 20:99+99:200
+   Question: 43 + 151
+   → Answer: 194
+6. Pattern: 50:100+99:400
+   Question: 58 + 142
+   → Answer: 200
+7. Pattern: 50:100+99:400
+   Question: 61 + 326
+   → Answer: 387
+8. Pattern: 50:100+99:400
+   Question: 52 + 311
+   → Answer: 363
+9. Pattern: 50:100+99:400
+   Question: 64 + 193
+   → Answer: 257
+10. Pattern: 50:100+99:400
+   Question: 72 + 276
+   → Answer: 348
+11. Pattern: 50:100+99:400
+   Question: 83 + 121
+   → Answer: 204
+12. Pattern: 50:100+99:400
+   Question: 51 + 260
+   → Answer: 311
+13. Pattern: 50:100+99:400
+   Question: 84 + 174
+   → Answer: 258
+14. Pattern: 50:100+99:400
+   Question: 58 + 125
+   → Answer: 183
+15. Pattern: 50:100+99:400
+   Question: 62 + 106
+   → Answer: 168
+16. Pattern: 99:400+99:400
+   Question: 266 + 215
+   → Answer: 481
+17. Pattern: 99:400+99:400
+   Question: 386 + 205
+   → Answer: 591
+18. Pattern: 99:400+99:400
+   Question: 120 + 137
+   → Answer: 257
+19. Pattern: 99:400+99:400
+   Question: 320 + 151
+   → Answer: 471
+20. Pattern: 99:400+99:400
+   Question: 220 + 361
+   → Answer: 581
+21. Pattern: 400:1000+99:400
+   Question: 656 + 202
+   → Answer: 858
+22. Pattern: 400:1000+99:400
+   Question: 851 + 133
+   → Answer: 984
+23. Pattern: 400:1000+99:400
+   Question: 922 + 341
+   → Answer: 1263
+24. Pattern: 400:1000+99:400
+   Question: 782 + 364
+   → Answer: 1146
+25. Pattern: 400:1000+99:400
+   Question: 763 + 301
+   → Answer: 1064
+26. Pattern: 400:1000+400:2000
+   Question: 426 + 1126
+   → Answer: 1552
+27. Pattern: 400:1000+400:2000
+   Question: 587 + 645
+   → Answer: 1232
+28. Pattern: 400:1000+400:2000
+   Question: 720 + 568
+   → Answer: 1288
+29. Pattern: 400:1000+400:2000
+   Question: 854 + 1688
+   → Answer: 2542
+30. Pattern: 400:1000+400:2000
+   Question: 633 + 1729
+   → Answer: 2362
+31. Pattern: 1000:5000+1000:2000
+   Question: 3647 + 1754
+   → Answer: 5401
+32. Pattern: 1000:5000+1000:2000
+   Question: 3527 + 1800
+   → Answer: 5327
+33. Pattern: 1000:5000+1000:2000
+   Question: 4951 + 1625
+   → Answer: 6576
+34. Pattern: 1000:5000+1000:2000
+   Question: 4474 + 1457
+   → Answer: 5931
+35. Pattern: 1000:5000+1000:2000
+   Question: 1341 + 1847
+   → Answer: 3188
+36. Pattern: 1000:5000+1000:5000
+   Question: 3588 + 3108
+   → Answer: 6696
+37. Pattern: 1000:5000+1000:5000
+   Question: 2914 + 4650
+   → Answer: 7564
+38. Pattern: 1000:5000+1000:5000
+   Question: 3732 + 3874
+   → Answer: 7606
+39. Pattern: 1000:5000+1000:5000
+   Question: 3633 + 3912
+   → Answer: 7545
+40. Pattern: 1000:5000+1000:5000
+   Question: 2096 + 1756
+   → Answer: 3852
+41. Pattern: 5000:25000+1000:5000
+   Question: 11663 + 3180
+   → Answer: 14843
+42. Pattern: 5000:25000+1000:5000
+   Question: 15708 + 3733
+   → Answer: 19441
+43. Pattern: 5000:25000+1000:5000
+   Question: 8412 + 1105
+   → Answer: 9517
+44. Pattern: 5000:25000+5000:25000
+   Question: 10994 + 11985
+   → Answer: 22979
+45. Pattern: 5000:25000+5000:25000
+   Question: 6821 + 7837
+   → Answer: 14658
+46. Pattern: 5000:25000+5000:25000
+   Question: 24749 + 12144
+   → Answer: 36893
+47. Pattern: 25000:50000+5000:25000
+   Question: 43095 + 6215
+   → Answer: 49310
+48. Pattern: 25000:50000+5000:25000
+   Question: 43948 + 13675
+   → Answer: 57623
+49. Pattern: 25000:50000+25000:50000
+   Question: 42303 + 35292
+   → Answer: 77595
+50. Pattern: 25000:50000+25000:50000
+   Question: 30720 + 30222
+   → Answer: 60942
+51. Pattern: 99:199+99:199
+   Question: 186 + 185
+   → Answer: 371
+52. Pattern: 60:65+65:70
+   Question: 62 + 68
+   → Answer: 130
+53. Pattern: 70:75+75:80
+   Question: 71 + 80
+   → Answer: 151
+54. Pattern: 80:85+85:90
+   Question: 80 + 87
+   → Answer: 167
+55. Pattern: 90:95+95:100
+   Question: 90 + 97
+   → Answer: 187
+56. Pattern: 100:200+100
+   Question: 175 + 100
+   → Answer: 275
+57. Pattern: 200:300+100
+   Question: 247 + 100
+   → Answer: 347
+58. Pattern: 300:400+100
+   Question: 315 + 100
+   → Answer: 415
+59. Pattern: 400:500+100
+   Question: 461 + 100
+   → Answer: 561
+60. Pattern: 500:600+100
+   Question: 501 + 100
+   → Answer: 601
+61. Pattern: 600:700+100
+   Question: 644 + 100
+   → Answer: 744
+62. Pattern: 700:800+100
+   Question: 717 + 100
+   → Answer: 817
+63. Pattern: 800:900+100
+   Question: 856 + 100
+   → Answer: 956
+64. Pattern: 600+100,200,300,400
+   Question: 600 + 400
+   → Answer: 1000
+65. Pattern: 600+500,600,700,800,900
+   Question: 600 + 500
+   → Answer: 1100
+66. Pattern: 700+100,200,300,400
+   Question: 700 + 200
+   → Answer: 900
+67. Pattern: 700+500,600,700,800,900
+   Question: 700 + 500
+   → Answer: 1200
+68. Pattern: 800+100,200,300,400,500
+   Question: 800 + 400
+   → Answer: 1200
+69. Pattern: 800+600,700,800,900
+   Question: 800 + 800
+   → Answer: 1600
+70. Pattern: 900+100,200,300,400,500
+   Question: 900 + 200
+   → Answer: 1100
+71. Pattern: 900+600,700,800,900
+   Question: 900 + 800
+   → Answer: 1700
+
+File: add_med.txt
+--------------------------------------------------
+1. Pattern: 10:20+1:20
+   Question: 20 + 2
+   → Answer: 22
+2. Pattern: 10:20+1:20
+   Question: 11 + 20
+   → Answer: 31
+3. Pattern: 10:20+1:20
+   Question: 12 + 19
+   → Answer: 31
+4. Pattern: 10:20+1:20
+   Question: 15 + 8
+   → Answer: 23
+5. Pattern: 10:20+1:20
+   Question: 14 + 8
+   → Answer: 22
+6. Pattern: 10:20+1:20
+   Question: 18 + 18
+   → Answer: 36
+7. Pattern: 10:20+1:20
+   Question: 19 + 8
+   → Answer: 27
+8. Pattern: 10:20+1:20
+   Question: 17 + 18
+   → Answer: 35
+9. Pattern: 10:20+1:20
+   Question: 19 + 10
+   → Answer: 29
+10. Pattern: 10:20+1:20
+   Question: 17 + 3
+   → Answer: 20
+11. Pattern: 100+100,200,300,400,500
+   Question: 100 + 300
+   → Answer: 400
+12. Pattern: 200+100,200,300,400,500
+   Question: 200 + 100
+   → Answer: 300
+13. Pattern: 300+100,200,300,400,500
+   Question: 300 + 100
+   → Answer: 400
+14. Pattern: 400+100,200,300,400,500
+   Question: 400 + 100
+   → Answer: 500
+15. Pattern: 500+100,200,300,400
+   Question: 500 + 400
+   → Answer: 900
+16. Pattern: 20:99+1:20
+   Question: 69 + 15
+   → Answer: 84
+17. Pattern: 20:99+1:20
+   Question: 98 + 14
+   → Answer: 112
+18. Pattern: 20:99+1:20
+   Question: 49 + 16
+   → Answer: 65
+19. Pattern: 20:99+1:20
+   Question: 78 + 5
+   → Answer: 83
+20. Pattern: 20:99+1:20
+   Question: 42 + 2
+   → Answer: 44
+21. Pattern: 100,200,300,400+100,200,300,400,500
+   Question: 300 + 500
+   → Answer: 800
+22. Pattern: 100,200,300,400+100,200,300,400,500
+   Question: 100 + 400
+   → Answer: 500
+23. Pattern: 100,200,300,400+100,200,300,400,500
+   Question: 300 + 100
+   → Answer: 400
+24. Pattern: 100,200,300,400+100,200,300,400,500
+   Question: 300 + 500
+   → Answer: 800
+25. Pattern: 100,200,300,400+100,200,300,400,500
+   Question: 200 + 300
+   → Answer: 500
+26. Pattern: 20:99+20:99
+   Question: 81 + 77
+   → Answer: 158
+27. Pattern: 20:99+20:99
+   Question: 44 + 80
+   → Answer: 124
+28. Pattern: 20:99+20:99
+   Question: 68 + 56
+   → Answer: 124
+29. Pattern: 20:99+20:99
+   Question: 68 + 50
+   → Answer: 118
+30. Pattern: 20:99+20:99
+   Question: 76 + 44
+   → Answer: 120
+31. Pattern: 1000+1000,2000,3000,4000
+   Question: 1000 + 1000
+   → Answer: 2000
+32. Pattern: 1000+5000,6000,7000,8000
+   Question: 1000 + 5000
+   → Answer: 6000
+33. Pattern: 2000+1000,2000,3000,4000
+   Question: 2000 + 2000
+   → Answer: 4000
+34. Pattern: 2000+5000,6000,7000
+   Question: 2000 + 6000
+   → Answer: 8000
+35. Pattern: 3000+1000,2000,3000,4000
+   Question: 3000 + 3000
+   → Answer: 6000
+36. Pattern: 20:99+20:99
+   Question: 91 + 41
+   → Answer: 132
+37. Pattern: 20:99+20:99
+   Question: 25 + 73
+   → Answer: 98
+38. Pattern: 20:99+20:99
+   Question: 70 + 74
+   → Answer: 144
+39. Pattern: 20:99+20:99
+   Question: 55 + 59
+   → Answer: 114
+40. Pattern: 20:99+20:99
+   Question: 41 + 46
+   → Answer: 87
+41. Pattern: 1000,2000,3000,4000+1000,2000,3000,4000
+   Question: 4000 + 3000
+   → Answer: 7000
+42. Pattern: 1000+5000,6000,7000,8000
+   Question: 1000 + 5000
+   → Answer: 6000
+43. Pattern: 2000+1000,2000,3000,4000
+   Question: 2000 + 3000
+   → Answer: 5000
+44. Pattern: 2000+5000,6000,7000
+   Question: 2000 + 5000
+   → Answer: 7000
+45. Pattern: 3000+1000,2000,3000,4000
+   Question: 3000 + 2000
+   → Answer: 5000
+46. Pattern: 20:99+20:99
+   Question: 95 + 23
+   → Answer: 118
+47. Pattern: 20:99+20:99
+   Question: 65 + 22
+   → Answer: 87
+48. Pattern: 20:99+20:99
+   Question: 40 + 47
+   → Answer: 87
+49. Pattern: 20:99+20:99
+   Question: 90 + 31
+   → Answer: 121
+50. Pattern: 20:99+20:99
+   Question: 74 + 86
+   → Answer: 160
+
+File: add_simple.txt
+--------------------------------------------------
+1. Error in pattern: 0:9 → No valid operator found in pattern
+2. Error in pattern: 0:9 → No valid operator found in pattern
+3. Error in pattern: 0:9 → No valid operator found in pattern
+4. Error in pattern: 0:9 → No valid operator found in pattern
+5. Error in pattern: 0:9 → No valid operator found in pattern
+6. Error in pattern: 0:9 → No valid operator found in pattern
+7. Error in pattern: 0:9 → No valid operator found in pattern
+8. Error in pattern: 0:9 → No valid operator found in pattern
+9. Error in pattern: 0:9 → No valid operator found in pattern
+10. Error in pattern: 0:9 → No valid operator found in pattern
+11. Error in pattern: 0:9 → No valid operator found in pattern
+12. Error in pattern: 0:9 → No valid operator found in pattern
+13. Error in pattern: 0:9 → No valid operator found in pattern
+14. Error in pattern: 0:9 → No valid operator found in pattern
+15. Error in pattern: 0:9 → No valid operator found in pattern
+16. Error in pattern: 0:9 → No valid operator found in pattern
+17. Error in pattern: 0:9 → No valid operator found in pattern
+18. Error in pattern: 0:9 → No valid operator found in pattern
+19. Error in pattern: 0:9 → No valid operator found in pattern
+20. Error in pattern: 0:9 → No valid operator found in pattern
+21. Error in pattern: 1:9 → No valid operator found in pattern
+22. Error in pattern: 1:9 → No valid operator found in pattern
+23. Error in pattern: 1:9 → No valid operator found in pattern
+24. Error in pattern: 1:9 → No valid operator found in pattern
+25. Error in pattern: 1:9 → No valid operator found in pattern
+26. Error in pattern: 1:9 → No valid operator found in pattern
+27. Error in pattern: 1:9 → No valid operator found in pattern
+28. Error in pattern: 1:9 → No valid operator found in pattern
+29. Error in pattern: 1:9 → No valid operator found in pattern
+30. Error in pattern: 1:9 → No valid operator found in pattern
+31. Error in pattern: 1:9 → No valid operator found in pattern
+32. Error in pattern: 1:9 → No valid operator found in pattern
+33. Error in pattern: 1:9 → No valid operator found in pattern
+34. Error in pattern: 1:9 → No valid operator found in pattern
+35. Error in pattern: 1:9 → No valid operator found in pattern
+36. Error in pattern: 1:9 → No valid operator found in pattern
+37. Error in pattern: 1:9 → No valid operator found in pattern
+38. Error in pattern: 1:9 → No valid operator found in pattern
+39. Error in pattern: 1:9 → No valid operator found in pattern
+40. Error in pattern: 1:9 → No valid operator found in pattern
+41. Pattern: 1:5+1
+   Question: 1 + 1
+   → Answer: 2
+42. Pattern: 1:5+2
+   Question: 4 + 2
+   → Answer: 6
+43. Pattern: 1:5+3
+   Question: 4 + 3
+   → Answer: 7
+44. Pattern: 1:5+4
+   Question: 2 + 4
+   → Answer: 6
+45. Pattern: 1,2+7
+   Question: 2 + 7
+   → Answer: 9
+46. Pattern: 1,2,3+6
+   Question: 3 + 6
+   → Answer: 9
+47. Pattern: 1:4+5
+   Question: 4 + 5
+   → Answer: 9
+48. Pattern: 1:8+1
+   Question: 5 + 1
+   → Answer: 6
+49. Pattern: 1:7+2
+   Question: 7 + 2
+   → Answer: 9
+50. Pattern: 1:6+3
+   Question: 4 + 3
+   → Answer: 7
+51. Pattern: 1:5+4
+   Question: 5 + 4
+   → Answer: 9
+52. Pattern: 1:4+5
+   Question: 2 + 5
+   → Answer: 7
+53. Pattern: 1:3+6
+   Question: 1 + 6
+   → Answer: 7
+54. Pattern: 1:5+1
+   Question: 5 + 1
+   → Answer: 6
+55. Pattern: 2:5+2
+   Question: 2 + 2
+   → Answer: 4
+56. Pattern: 3:5+3
+   Question: 3 + 3
+   → Answer: 6
+57. Pattern: 4:5+4
+   Question: 4 + 4
+   → Answer: 8
+58. Pattern: 1,2+7
+   Question: 2 + 7
+   → Answer: 9
+59. Pattern: 1,2,3+6
+   Question: 1 + 6
+   → Answer: 7
+60. Pattern: 1:4+5
+   Question: 4 + 5
+   → Answer: 9
+61. Pattern: 1:8+1
+   Question: 3 + 1
+   → Answer: 4
+62. Pattern: 1:7+2
+   Question: 1 + 2
+   → Answer: 3
+63. Pattern: 1:6+3
+   Question: 2 + 3
+   → Answer: 5
+64. Pattern: 1:5+4
+   Question: 2 + 4
+   → Answer: 6
+65. Pattern: 1:4+5
+   Question: 4 + 5
+   → Answer: 9
+66. Pattern: 1:3+6
+   Question: 1 + 6
+   → Answer: 7
+
+File: div_chlg.txt
+--------------------------------------------------
+1. Pattern: 4876/7,11,13,17,19,23
+   Question: 4876 / 17
+   → Answer: 286
+2. Pattern: 4876/7,11,13,17,19,23
+   Question: 4876 / 23
+   → Answer: 212
+3. Pattern: 4876/7,11,13,17,19,23
+   Question: 4876 / 13
+   → Answer: 375
+4. Pattern: 4876/7,11,13,17,19,23
+   Question: 4876 / 7
+   → Answer: 696
+5. Pattern: 4876/7,11,13,17,19,23
+   Question: 4876 / 17
+   → Answer: 286
+6. Pattern: 1000:10000/11:21
+   Question: 2114 / 12
+   → Answer: 176
+7. Pattern: 1000:10000/11:21
+   Question: 5215 / 20
+   → Answer: 260
+8. Pattern: 1000:10000/11:21
+   Question: 5765 / 20
+   → Answer: 288
+9. Pattern: 1000:10000/11:21
+   Question: 2139 / 14
+   → Answer: 152
+10. Pattern: 1000:10000/11:21
+   Question: 9629 / 21
+   → Answer: 458
+11. Pattern: 1000:10000/11:21
+   Question: 3024 / 12
+   → Answer: 252
+12. Pattern: 1000:10000/11:21
+   Question: 6981 / 18
+   → Answer: 387
+13. Pattern: 1000:10000/11:21
+   Question: 5316 / 19
+   → Answer: 279
+14. Pattern: 1000:10000/11:21
+   Question: 5347 / 16
+   → Answer: 334
+15. Pattern: 1000:10000/11:21
+   Question: 7811 / 14
+   → Answer: 557
+16. Pattern: 10000:30000/21:39
+   Question: 15029 / 32
+   → Answer: 469
+17. Pattern: 10000:30000/21:39
+   Question: 22200 / 39
+   → Answer: 569
+18. Pattern: 10000:30000/21:39
+   Question: 25881 / 37
+   → Answer: 699
+19. Pattern: 10000:30000/21:39
+   Question: 27008 / 32
+   → Answer: 844
+20. Pattern: 10000:30000/21:39
+   Question: 14158 / 34
+   → Answer: 416
+21. Pattern: 10000:30000/21:39
+   Question: 10278 / 36
+   → Answer: 285
+22. Pattern: 10000:30000/21:39
+   Question: 25637 / 38
+   → Answer: 674
+23. Pattern: 10000:30000/21:39
+   Question: 19190 / 28
+   → Answer: 685
+24. Pattern: 10000:30000/21:39
+   Question: 16742 / 21
+   → Answer: 797
+25. Pattern: 10000:30000/21:39
+   Question: 17948 / 34
+   → Answer: 527
+26. Pattern: 30000:70000/31:59
+   Question: 44964 / 33
+   → Answer: 1362
+27. Pattern: 30000:70000/31:59
+   Question: 64180 / 54
+   → Answer: 1188
+28. Pattern: 30000:70000/31:59
+   Question: 61206 / 59
+   → Answer: 1037
+29. Pattern: 30000:70000/31:59
+   Question: 54879 / 42
+   → Answer: 1306
+30. Pattern: 30000:70000/31:59
+   Question: 50077 / 38
+   → Answer: 1317
+31. Pattern: 30000:70000/31:59
+   Question: 57205 / 36
+   → Answer: 1589
+32. Pattern: 30000:70000/31:59
+   Question: 46849 / 58
+   → Answer: 807
+33. Pattern: 30000:70000/31:59
+   Question: 59352 / 39
+   → Answer: 1521
+34. Pattern: 30000:70000/31:59
+   Question: 43527 / 43
+   → Answer: 1012
+35. Pattern: 30000:70000/31:59
+   Question: 67917 / 50
+   → Answer: 1358
+36. Pattern: 50000:100000/51:99
+   Question: 97673 / 86
+   → Answer: 1135
+37. Pattern: 50000:100000/51:99
+   Question: 68653 / 92
+   → Answer: 746
+38. Pattern: 50000:100000/51:99
+   Question: 92151 / 78
+   → Answer: 1181
+39. Pattern: 50000:100000/51:99
+   Question: 73645 / 72
+   → Answer: 1022
+40. Pattern: 50000:100000/51:99
+   Question: 53931 / 76
+   → Answer: 709
+41. Pattern: 50000:100000/101:499
+   Question: 75359 / 183
+   → Answer: 411
+42. Pattern: 50000:100000/101:499
+   Question: 94943 / 410
+   → Answer: 231
+43. Pattern: 50000:100000/101:499
+   Question: 83784 / 106
+   → Answer: 790
+44. Pattern: 50000:100000/101:499
+   Question: 58469 / 114
+   → Answer: 512
+45. Pattern: 50000:100000/101:499
+   Question: 72507 / 157
+   → Answer: 461
+46. Pattern: 50000:100000/501:999
+   Question: 73342 / 860
+   → Answer: 85
+47. Pattern: 50000:100000/501:999
+   Question: 69083 / 945
+   → Answer: 73
+48. Pattern: 50000:100000/501:999
+   Question: 64749 / 600
+   → Answer: 107
+49. Pattern: 50000:100000/501:999
+   Question: 89356 / 941
+   → Answer: 94
+50. Pattern: 50000:100000/501:999
+   Question: 84274 / 587
+   → Answer: 143
+
+File: div_easy.txt
+--------------------------------------------------
+1. Pattern: 2;1;10/2
+   Question: 16 / 2
+   → Answer: 8
+2. Pattern: 2;1;10/2
+   Question: 20 / 2
+   → Answer: 10
+3. Pattern: 2;1;10/2
+   Question: 6 / 2
+   → Answer: 3
+4. Pattern: 2;1;10/2
+   Question: 12 / 2
+   → Answer: 6
+5. Pattern: 2;1;10/2
+   Question: 14 / 2
+   → Answer: 7
+6. Pattern: 3;1;10/3
+   Question: 9 / 3
+   → Answer: 3
+7. Pattern: 3;1;10/3
+   Question: 30 / 3
+   → Answer: 10
+8. Pattern: 3;1;10/3
+   Question: 27 / 3
+   → Answer: 9
+9. Pattern: 3;1;10/3
+   Question: 6 / 3
+   → Answer: 2
+10. Pattern: 3;1;10/3
+   Question: 12 / 3
+   → Answer: 4
+11. Pattern: 4;1;10/4
+   Question: 32 / 4
+   → Answer: 8
+12. Pattern: 4;1;10/4
+   Question: 36 / 4
+   → Answer: 9
+13. Pattern: 4;1;10/4
+   Question: 4 / 4
+   → Answer: 1
+14. Pattern: 4;1;10/4
+   Question: 40 / 4
+   → Answer: 10
+15. Pattern: 4;1;10/4
+   Question: 36 / 4
+   → Answer: 9
+16. Pattern: 5;1;10/5
+   Question: 5 / 5
+   → Answer: 1
+17. Pattern: 5;1;10/5
+   Question: 40 / 5
+   → Answer: 8
+18. Pattern: 5;1;10/5
+   Question: 45 / 5
+   → Answer: 9
+19. Pattern: 5;1;10/5
+   Question: 20 / 5
+   → Answer: 4
+20. Pattern: 5;1;10/5
+   Question: 20 / 5
+   → Answer: 4
+21. Pattern: 20;1;3/2,4
+   Question: 60 / 4
+   → Answer: 15
+22. Pattern: 20;1;3/2,4
+   Question: 40 / 2
+   → Answer: 20
+23. Pattern: 20;1;3/2,4
+   Question: 20 / 2
+   → Answer: 10
+24. Pattern: 20;1;3/2,4
+   Question: 40 / 2
+   → Answer: 20
+25. Pattern: 20;1;3/2,4
+   Question: 40 / 2
+   → Answer: 20
+26. Pattern: 6;1;10/6
+   Question: 48 / 6
+   → Answer: 8
+27. Pattern: 6;1;10/6
+   Question: 60 / 6
+   → Answer: 10
+28. Pattern: 6;1;10/6
+   Question: 36 / 6
+   → Answer: 6
+29. Pattern: 6;1;10/6
+   Question: 30 / 6
+   → Answer: 5
+30. Pattern: 6;1;10/6
+   Question: 42 / 6
+   → Answer: 7
+31. Pattern: 10;1;6/2,5,10
+   Question: 10 / 2
+   → Answer: 5
+32. Pattern: 10;1;6/2,5,10
+   Question: 20 / 5
+   → Answer: 4
+33. Pattern: 10;1;6/2,5,10
+   Question: 10 / 10
+   → Answer: 1
+34. Pattern: 10;1;6/2,5,10
+   Question: 20 / 10
+   → Answer: 2
+35. Pattern: 10;1;6/2,5,10
+   Question: 60 / 5
+   → Answer: 12
+36. Pattern: 7;1;10/7
+   Question: 56 / 7
+   → Answer: 8
+37. Pattern: 7;1;10/7
+   Question: 63 / 7
+   → Answer: 9
+38. Pattern: 7;1;10/7
+   Question: 21 / 7
+   → Answer: 3
+39. Pattern: 7;1;10/7
+   Question: 63 / 7
+   → Answer: 9
+40. Pattern: 7;1;10/7
+   Question: 21 / 7
+   → Answer: 3
+41. Pattern: 8;1;10/8
+   Question: 8 / 8
+   → Answer: 1
+42. Pattern: 8;1;10/8
+   Question: 40 / 8
+   → Answer: 5
+43. Pattern: 8;1;10/8
+   Question: 8 / 8
+   → Answer: 1
+44. Pattern: 8;1;10/8
+   Question: 72 / 8
+   → Answer: 9
+45. Pattern: 8;1;10/8
+   Question: 64 / 8
+   → Answer: 8
+46. Pattern: 9;1;10/9
+   Question: 18 / 9
+   → Answer: 2
+47. Pattern: 9;1;10/9
+   Question: 72 / 9
+   → Answer: 8
+48. Pattern: 9;1;10/9
+   Question: 18 / 9
+   → Answer: 2
+49. Pattern: 9;1;10/9
+   Question: 27 / 9
+   → Answer: 3
+50. Pattern: 9;1;10/9
+   Question: 18 / 9
+   → Answer: 2
+51. Pattern: 30,60,90/2,3,5,6,10
+   Question: 60 / 10
+   → Answer: 6
+52. Pattern: 30,60,90/2,3,5,6,10
+   Question: 30 / 2
+   → Answer: 15
+53. Pattern: 30,60,90/2,3,5,6,10
+   Question: 30 / 2
+   → Answer: 15
+54. Pattern: 30,60,90/2,3,5,6,10
+   Question: 90 / 10
+   → Answer: 9
+55. Pattern: 30,60,90/2,3,5,6,10
+   Question: 30 / 3
+   → Answer: 10
+56. Pattern: 40,80/2,4,5,8
+   Question: 80 / 5
+   → Answer: 16
+57. Pattern: 40,80/2,4,5,8
+   Question: 80 / 2
+   → Answer: 40
+58. Pattern: 40,80/2,4,5,8
+   Question: 80 / 2
+   → Answer: 40
+59. Pattern: 40,80/2,4,5,8
+   Question: 40 / 4
+   → Answer: 10
+60. Pattern: 40,80/2,4,5,8
+   Question: 80 / 2
+   → Answer: 40
+
+File: div_hard.txt
+--------------------------------------------------
+1. Pattern: 143;1;7/11,13
+   Question: 715 / 13
+   → Answer: 55
+2. Pattern: 143;1;7/11,13
+   Question: 715 / 11
+   → Answer: 65
+3. Pattern: 143;1;7/11,13
+   Question: 1001 / 11
+   → Answer: 91
+4. Pattern: 143;1;7/11,13
+   Question: 429 / 13
+   → Answer: 33
+5. Pattern: 143;1;7/11,13
+   Question: 715 / 13
+   → Answer: 55
+6. Pattern: 143;1;7/11,13
+   Question: 143 / 13
+   → Answer: 11
+7. Pattern: 143;1;7/11,13
+   Question: 572 / 11
+   → Answer: 52
+8. Pattern: 221;1;9/13,17
+   Question: 1989 / 13
+   → Answer: 153
+9. Pattern: 221;1;9/13,17
+   Question: 1989 / 17
+   → Answer: 117
+10. Pattern: 221;1;9/13,17
+   Question: 221 / 17
+   → Answer: 13
+11. Pattern: 221;1;9/13,17
+   Question: 221 / 13
+   → Answer: 17
+12. Pattern: 221;1;9/13,17
+   Question: 221 / 13
+   → Answer: 17
+13. Pattern: 221;1;9/13,17
+   Question: 663 / 17
+   → Answer: 39
+14. Pattern: 221;1;9/13,17
+   Question: 884 / 17
+   → Answer: 52
+15. Pattern: 209;1;9/11,19
+   Question: 627 / 11
+   → Answer: 57
+16. Pattern: 209;1;9/11,19
+   Question: 1881 / 19
+   → Answer: 99
+17. Pattern: 209;1;9/11,19
+   Question: 627 / 11
+   → Answer: 57
+18. Pattern: 209;1;9/11,19
+   Question: 627 / 11
+   → Answer: 57
+19. Pattern: 209;1;9/11,19
+   Question: 1881 / 11
+   → Answer: 171
+20. Pattern: 209;1;9/11,19
+   Question: 1463 / 19
+   → Answer: 77
+21. Pattern: 209;1;9/11,19
+   Question: 1045 / 11
+   → Answer: 95
+22. Pattern: 209;1;9/11,19
+   Question: 418 / 19
+   → Answer: 22
+23. Pattern: 3553;1;9/11,17,19
+   Question: 3553 / 11
+   → Answer: 323
+24. Pattern: 3553;1;9/11,17,19
+   Question: 14212 / 17
+   → Answer: 836
+25. Pattern: 3553;1;9/11,17,19
+   Question: 17765 / 17
+   → Answer: 1045
+26. Pattern: 3553;1;9/11,17,19
+   Question: 24871 / 17
+   → Answer: 1463
+27. Pattern: 3553;1;9/11,17,19
+   Question: 10659 / 19
+   → Answer: 561
+28. Pattern: 3553;1;9/11,17,19
+   Question: 17765 / 17
+   → Answer: 1045
+29. Pattern: 3553;1;9/11,17,19
+   Question: 7106 / 19
+   → Answer: 374
+30. Pattern: 4301;1;9/11,17,23
+   Question: 30107 / 11
+   → Answer: 2737
+31. Pattern: 4301;1;9/11,17,23
+   Question: 4301 / 17
+   → Answer: 253
+32. Pattern: 4301;1;9/11,17,23
+   Question: 12903 / 17
+   → Answer: 759
+33. Pattern: 4301;1;9/11,17,23
+   Question: 8602 / 23
+   → Answer: 374
+34. Pattern: 4301;1;9/11,17,23
+   Question: 25806 / 17
+   → Answer: 1518
+35. Pattern: 4301;1;9/11,17,23
+   Question: 21505 / 17
+   → Answer: 1265
+36. Pattern: 4301;1;9/11,17,23
+   Question: 8602 / 11
+   → Answer: 782
+37. Pattern: 13125;1;7/5,15,25,35
+   Question: 78750 / 5
+   → Answer: 15750
+38. Pattern: 13125;1;7/5,15,25,35
+   Question: 91875 / 25
+   → Answer: 3675
+39. Pattern: 13125;1;7/5,15,25,35
+   Question: 13125 / 25
+   → Answer: 525
+40. Pattern: 13125;1;7/5,15,25,35
+   Question: 26250 / 25
+   → Answer: 1050
+41. Pattern: 13125;1;7/5,15,25,35
+   Question: 39375 / 5
+   → Answer: 7875
+42. Pattern: 13125;1;7/5,15,25,35
+   Question: 26250 / 5
+   → Answer: 5250
+43. Pattern: 13125;1;7/5,15,25,35
+   Question: 52500 / 5
+   → Answer: 10500
+44. Pattern: 3289;1;12/11,13,23
+   Question: 32890 / 11
+   → Answer: 2990
+45. Pattern: 3289;1;12/11,13,23
+   Question: 9867 / 11
+   → Answer: 897
+46. Pattern: 3289;1;12/11,13,23
+   Question: 36179 / 13
+   → Answer: 2783
+47. Pattern: 3289;1;12/11,13,23
+   Question: 3289 / 13
+   → Answer: 253
+48. Pattern: 3289;1;12/11,13,23
+   Question: 19734 / 13
+   → Answer: 1518
+49. Pattern: 3289;1;12/11,13,23
+   Question: 36179 / 13
+   → Answer: 2783
+50. Pattern: 3289;1;12/11,13,23
+   Question: 19734 / 13
+   → Answer: 1518
+
+File: div_med.txt
+--------------------------------------------------
+1. Pattern: 40;1;5/2,4,5,8,10
+   Question: 40 / 2
+   → Answer: 20
+2. Pattern: 40;1;5/2,4,5,8,10
+   Question: 200 / 2
+   → Answer: 100
+3. Pattern: 40;1;5/2,4,5,8,10
+   Question: 160 / 8
+   → Answer: 20
+4. Pattern: 40;1;5/2,4,5,8,10
+   Question: 120 / 4
+   → Answer: 30
+5. Pattern: 40;1;5/2,4,5,8,10
+   Question: 200 / 10
+   → Answer: 20
+6. Pattern: 60;1;5/2,3,5,6,10
+   Question: 120 / 5
+   → Answer: 24
+7. Pattern: 60;1;5/2,3,5,6,10
+   Question: 240 / 10
+   → Answer: 24
+8. Pattern: 60;1;5/2,3,5,6,10
+   Question: 180 / 5
+   → Answer: 36
+9. Pattern: 60;1;5/2,3,5,6,10
+   Question: 240 / 3
+   → Answer: 80
+10. Pattern: 60;1;5/2,3,5,6,10
+   Question: 240 / 2
+   → Answer: 120
+11. Pattern: 11;1;10/11
+   Question: 99 / 11
+   → Answer: 9
+12. Pattern: 11;1;10/11
+   Question: 88 / 11
+   → Answer: 8
+13. Pattern: 11;1;10/11
+   Question: 22 / 11
+   → Answer: 2
+14. Pattern: 11;1;10/11
+   Question: 44 / 11
+   → Answer: 4
+15. Pattern: 11;1;10/11
+   Question: 66 / 11
+   → Answer: 6
+16. Pattern: 12;1;10/12
+   Question: 84 / 12
+   → Answer: 7
+17. Pattern: 12;1;10/12
+   Question: 60 / 12
+   → Answer: 5
+18. Pattern: 12;1;10/12
+   Question: 48 / 12
+   → Answer: 4
+19. Pattern: 12;1;10/12
+   Question: 96 / 12
+   → Answer: 8
+20. Pattern: 12;1;10/12
+   Question: 120 / 12
+   → Answer: 10
+21. Pattern: 120;1;5/2,3,4,5,6,8,10
+   Question: 480 / 6
+   → Answer: 80
+22. Pattern: 120;1;5/2,3,4,5,6,8,10
+   Question: 240 / 5
+   → Answer: 48
+23. Pattern: 120;1;5/2,3,4,5,6,8,10
+   Question: 360 / 2
+   → Answer: 180
+24. Pattern: 120;1;5/2,3,4,5,6,8,10
+   Question: 360 / 2
+   → Answer: 180
+25. Pattern: 120;1;5/2,3,4,5,6,8,10
+   Question: 480 / 8
+   → Answer: 60
+26. Pattern: 77;1;7/7,11
+   Question: 539 / 11
+   → Answer: 49
+27. Pattern: 77;1;7/7,11
+   Question: 231 / 11
+   → Answer: 21
+28. Pattern: 77;1;7/7,11
+   Question: 539 / 7
+   → Answer: 77
+29. Pattern: 77;1;7/7,11
+   Question: 154 / 7
+   → Answer: 22
+30. Pattern: 77;1;7/7,11
+   Question: 539 / 7
+   → Answer: 77
+31. Pattern: 90;1;10/2,3,5,6,9
+   Question: 180 / 5
+   → Answer: 36
+32. Pattern: 90;1;10/2,3,5,6,9
+   Question: 540 / 9
+   → Answer: 60
+33. Pattern: 90;1;10/2,3,5,6,9
+   Question: 450 / 3
+   → Answer: 150
+34. Pattern: 90;1;10/2,3,5,6,9
+   Question: 630 / 3
+   → Answer: 210
+35. Pattern: 90;1;10/2,3,5,6,9
+   Question: 270 / 3
+   → Answer: 90
+36. Pattern: 240,480,720,960/2,3,4,5,6,10,12
+   Question: 720 / 10
+   → Answer: 72
+37. Pattern: 240,480,720,960/2,3,4,5,6,10,12
+   Question: 240 / 5
+   → Answer: 48
+38. Pattern: 240,480,720,960/2,3,4,5,6,10,12
+   Question: 240 / 3
+   → Answer: 80
+39. Pattern: 240,480,720,960/2,3,4,5,6,10,12
+   Question: 480 / 6
+   → Answer: 80
+40. Pattern: 240,480,720,960/2,3,4,5,6,10,12
+   Question: 960 / 6
+   → Answer: 160
+41. Pattern: 462,924/2,3,6,11
+   Question: 924 / 11
+   → Answer: 84
+42. Pattern: 462,924/2,3,6,11
+   Question: 462 / 2
+   → Answer: 231
+43. Pattern: 462,924/2,3,6,11
+   Question: 462 / 6
+   → Answer: 77
+44. Pattern: 462,924/2,3,6,11
+   Question: 924 / 2
+   → Answer: 462
+45. Pattern: 462,924/2,3,6,11
+   Question: 462 / 11
+   → Answer: 42
+46. Pattern: 495,990/3,5,9,11
+   Question: 990 / 3
+   → Answer: 330
+47. Pattern: 495,990/3,5,9,11
+   Question: 990 / 11
+   → Answer: 90
+48. Pattern: 495,990/3,5,9,11
+   Question: 495 / 9
+   → Answer: 55
+49. Pattern: 495,990/3,5,9,11
+   Question: 495 / 5
+   → Answer: 99
+50. Pattern: 495,990/3,5,9,11
+   Question: 495 / 5
+   → Answer: 99
+
+File: div_simple.txt
+--------------------------------------------------
+1. Pattern: 2;1;5/2
+   Question: 2 / 2
+   → Answer: 1
+2. Pattern: 2;1;5/2
+   Question: 4 / 2
+   → Answer: 2
+3. Pattern: 2;1;5/2
+   Question: 2 / 2
+   → Answer: 1
+4. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+5. Pattern: 2;1;5/2
+   Question: 4 / 2
+   → Answer: 2
+6. Pattern: 3;1;3/3
+   Question: 3 / 3
+   → Answer: 1
+7. Pattern: 3;1;3/3
+   Question: 3 / 3
+   → Answer: 1
+8. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+9. Pattern: 3;1;3/3
+   Question: 6 / 3
+   → Answer: 2
+10. Pattern: 3;1;3/3
+   Question: 3 / 3
+   → Answer: 1
+11. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+12. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+13. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+14. Pattern: 2;1;5/2
+   Question: 2 / 2
+   → Answer: 1
+15. Pattern: 2;1;5/2
+   Question: 2 / 2
+   → Answer: 1
+16. Pattern: 2;1;5/2
+   Question: 8 / 2
+   → Answer: 4
+17. Pattern: 2;1;5/2
+   Question: 2 / 2
+   → Answer: 1
+18. Pattern: 2;1;5/2
+   Question: 4 / 2
+   → Answer: 2
+19. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+20. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+21. Pattern: 3;1;3/3
+   Question: 6 / 3
+   → Answer: 2
+22. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+23. Pattern: 3;1;3/3
+   Question: 6 / 3
+   → Answer: 2
+24. Pattern: 4,8/4
+   Question: 8 / 4
+   → Answer: 2
+25. Pattern: 4,8/4
+   Question: 8 / 4
+   → Answer: 2
+26. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+27. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+28. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+29. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+30. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+31. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+32. Pattern: 3;1;3/3
+   Question: 6 / 3
+   → Answer: 2
+33. Pattern: 3;1;3/3
+   Question: 3 / 3
+   → Answer: 1
+34. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+35. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+36. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+37. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+38. Pattern: 4,8/4
+   Question: 8 / 4
+   → Answer: 2
+39. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+40. Pattern: 2;1;5/2
+   Question: 8 / 2
+   → Answer: 4
+41. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+42. Pattern: 2;1;5/2
+   Question: 10 / 2
+   → Answer: 5
+43. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+44. Pattern: 2;1;5/2
+   Question: 6 / 2
+   → Answer: 3
+45. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+46. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+47. Pattern: 3;1;3/3
+   Question: 3 / 3
+   → Answer: 1
+48. Pattern: 3;1;3/3
+   Question: 9 / 3
+   → Answer: 3
+49. Pattern: 3;1;3/3
+   Question: 3 / 3
+   → Answer: 1
+50. Pattern: 4,8/4
+   Question: 8 / 4
+   → Answer: 2
+51. Pattern: 4,8/4
+   Question: 4 / 4
+   → Answer: 1
+52. Pattern: 4,8/4
+   Question: 8 / 4
+   → Answer: 2
+
+File: mul_chlg.txt
+--------------------------------------------------
+1. Pattern: 0:33*0:30
+   Question: 15 * 10
+   → Answer: 150
+2. Pattern: 0:33*0:30
+   Question: 32 * 10
+   → Answer: 320
+3. Pattern: 0:33*0:30
+   Question: 29 * 17
+   → Answer: 493
+4. Pattern: 0:33*0:30
+   Question: 33 * 29
+   → Answer: 957
+5. Pattern: 0:33*0:30
+   Question: 15 * 30
+   → Answer: 450
+6. Error in pattern: 20,30,40,50*0.5,1.5,2.5 → invalid literal for int() with base 10: '0.5'
+7. Error in pattern: 20,30,40,50*0.5,1.5,2.5 → invalid literal for int() with base 10: '0.5'
+8. Error in pattern: 20,30,40,50*0.5,1.5,2.5 → invalid literal for int() with base 10: '0.5'
+9. Error in pattern: 20,30,40,50*0.5,1.5,2.5 → invalid literal for int() with base 10: '0.5'
+10. Error in pattern: 20,30,40,50*0.5,1.5,2.5 → invalid literal for int() with base 10: '0.5'
+11. Pattern: 0:200*1:20
+   Question: 125 * 18
+   → Answer: 2250
+12. Pattern: 0:200*1:20
+   Question: 160 * 15
+   → Answer: 2400
+13. Pattern: 0:200*1:20
+   Question: 108 * 16
+   → Answer: 1728
+14. Pattern: 0:200*1:20
+   Question: 60 * 13
+   → Answer: 780
+15. Pattern: 0:200*1:20
+   Question: 128 * 5
+   → Answer: 640
+16. Error in pattern: 100,200,300,400,500*0.25,0.75,1.25,1.75 → invalid literal for int() with base 10: '0.25'
+17. Error in pattern: 100,200,300,400,500*0.25,0.75,1.25,1.75 → invalid literal for int() with base 10: '0.25'
+18. Error in pattern: 100,200,300,400,500*0.25,0.75,1.25,1.75 → invalid literal for int() with base 10: '0.25'
+19. Error in pattern: 100,200,300,400,500*0.25,0.75,1.25,1.75 → invalid literal for int() with base 10: '0.25'
+20. Error in pattern: 100,200,300,400,500*0.25,0.75,1.25,1.75 → invalid literal for int() with base 10: '0.25'
+21. Pattern: 0:200*20:50
+   Question: 92 * 48
+   → Answer: 4416
+22. Pattern: 0:200*20:50
+   Question: 140 * 31
+   → Answer: 4340
+23. Pattern: 0:200*20:50
+   Question: 177 * 48
+   → Answer: 8496
+24. Pattern: 0:200*20:50
+   Question: 182 * 28
+   → Answer: 5096
+25. Pattern: 0:200*20:50
+   Question: 44 * 44
+   → Answer: 1936
+26. Pattern: 1:1000*1:50
+   Question: 467 * 27
+   → Answer: 12609
+27. Pattern: 1:1000*1:50
+   Question: 27 * 6
+   → Answer: 162
+28. Pattern: 1:1000*1:50
+   Question: 121 * 26
+   → Answer: 3146
+29. Pattern: 1:1000*1:50
+   Question: 915 * 33
+   → Answer: 30195
+30. Pattern: 1:1000*1:50
+   Question: 335 * 35
+   → Answer: 11725
+31. Pattern: 1:200*-50:50
+   Question: 112 * -17
+   → Answer: -1904
+32. Pattern: 1:200*-50:50
+   Question: 15 * 4
+   → Answer: 60
+33. Pattern: 1:200*-50:50
+   Question: 48 * -24
+   → Answer: -1152
+34. Pattern: 1:200*-50:50
+   Question: 113 * 30
+   → Answer: 3390
+35. Pattern: 1:200*-50:50
+   Question: 173 * 40
+   → Answer: 6920
+36. Error in pattern: 100,200,300,400,500*0.2,0.3,0.4,0.6,0.7,0.8,0.9 → invalid literal for int() with base 10: '0.2'
+37. Error in pattern: 100,200,300,400,500*0.2,0.3,0.4,0.6,0.7,0.8,0.9 → invalid literal for int() with base 10: '0.2'
+38. Error in pattern: 100,200,300,400,500*0.2,0.3,0.4,0.6,0.7,0.8,0.9 → invalid literal for int() with base 10: '0.2'
+39. Error in pattern: 100,200,300,400,500*0.2,0.3,0.4,0.6,0.7,0.8,0.9 → invalid literal for int() with base 10: '0.2'
+40. Error in pattern: 100,200,300,400,500*0.2,0.3,0.4,0.6,0.7,0.8,0.9 → invalid literal for int() with base 10: '0.2'
+41. Pattern: 1:1000*1:1000
+   Question: 172 * 428
+   → Answer: 73616
+42. Pattern: 1:1000*1:1000
+   Question: 908 * 801
+   → Answer: 727308
+43. Pattern: 1:1000*1:1000
+   Question: 766 * 103
+   → Answer: 78898
+44. Pattern: 1:1000*1:1000
+   Question: 76 * 362
+   → Answer: 27512
+45. Pattern: 1:1000*1:1000
+   Question: 554 * 316
+   → Answer: 175064
+46. Pattern: 1:1000*1:1000
+   Question: 567 * 52
+   → Answer: 29484
+47. Pattern: 1:1000*1:1000
+   Question: 731 * 622
+   → Answer: 454682
+48. Pattern: 1:1000*1:1000
+   Question: 692 * 457
+   → Answer: 316244
+49. Pattern: 1:1000*1:1000
+   Question: 638 * 197
+   → Answer: 125686
+50. Pattern: 1:1000*1:1000
+   Question: 335 * 745
+   → Answer: 249575
+
+File: mul_easy.txt
+--------------------------------------------------
+1. Pattern: 2*1
+   Question: 2 * 1
+   → Answer: 2
+2. Pattern: 2*2
+   Question: 2 * 2
+   → Answer: 4
+3. Pattern: 2*3
+   Question: 2 * 3
+   → Answer: 6
+4. Pattern: 2*4
+   Question: 2 * 4
+   → Answer: 8
+5. Pattern: 2*5
+   Question: 2 * 5
+   → Answer: 10
+6. Pattern: 2*6
+   Question: 2 * 6
+   → Answer: 12
+7. Pattern: 2*7
+   Question: 2 * 7
+   → Answer: 14
+8. Pattern: 2*8
+   Question: 2 * 8
+   → Answer: 16
+9. Pattern: 2*9
+   Question: 2 * 9
+   → Answer: 18
+10. Pattern: 2*10
+   Question: 2 * 10
+   → Answer: 20
+11. Pattern: 2*0:10
+   Question: 2 * 7
+   → Answer: 14
+12. Pattern: 2*0:10
+   Question: 2 * 2
+   → Answer: 4
+13. Pattern: 2*0:10
+   Question: 2 * 3
+   → Answer: 6
+14. Pattern: 2*0:10
+   Question: 2 * 5
+   → Answer: 10
+15. Pattern: 2*0:10
+   Question: 2 * 8
+   → Answer: 16
+16. Pattern: 3*1
+   Question: 3 * 1
+   → Answer: 3
+17. Pattern: 3*2
+   Question: 3 * 2
+   → Answer: 6
+18. Pattern: 3*3
+   Question: 3 * 3
+   → Answer: 9
+19. Pattern: 3*4
+   Question: 3 * 4
+   → Answer: 12
+20. Pattern: 3*5
+   Question: 3 * 5
+   → Answer: 15
+21. Pattern: 3*6
+   Question: 3 * 6
+   → Answer: 18
+22. Pattern: 3*7
+   Question: 3 * 7
+   → Answer: 21
+23. Pattern: 3*8
+   Question: 3 * 8
+   → Answer: 24
+24. Pattern: 3*9
+   Question: 3 * 9
+   → Answer: 27
+25. Pattern: 3*10
+   Question: 3 * 10
+   → Answer: 30
+26. Pattern: 3*0:10
+   Question: 3 * 8
+   → Answer: 24
+27. Pattern: 3*0:10
+   Question: 3 * 7
+   → Answer: 21
+28. Pattern: 3*0:10
+   Question: 3 * 8
+   → Answer: 24
+29. Pattern: 3*0:10
+   Question: 3 * 9
+   → Answer: 27
+30. Pattern: 3*0:10
+   Question: 3 * 4
+   → Answer: 12
+31. Pattern: 4*1
+   Question: 4 * 1
+   → Answer: 4
+32. Pattern: 4*2
+   Question: 4 * 2
+   → Answer: 8
+33. Pattern: 4*3
+   Question: 4 * 3
+   → Answer: 12
+34. Pattern: 4*4
+   Question: 4 * 4
+   → Answer: 16
+35. Pattern: 4*5
+   Question: 4 * 5
+   → Answer: 20
+36. Pattern: 4*6
+   Question: 4 * 6
+   → Answer: 24
+37. Pattern: 4*7
+   Question: 4 * 7
+   → Answer: 28
+38. Pattern: 4*8
+   Question: 4 * 8
+   → Answer: 32
+39. Pattern: 4*9
+   Question: 4 * 9
+   → Answer: 36
+40. Pattern: 4*10
+   Question: 4 * 10
+   → Answer: 40
+41. Pattern: 4*0:10
+   Question: 4 * 4
+   → Answer: 16
+42. Pattern: 4*0:10
+   Question: 4 * 3
+   → Answer: 12
+43. Pattern: 4*0:10
+   Question: 4 * 10
+   → Answer: 40
+44. Pattern: 4*0:10
+   Question: 4 * 10
+   → Answer: 40
+45. Pattern: 4*0:10
+   Question: 4 * 10
+   → Answer: 40
+46. Pattern: 5*1
+   Question: 5 * 1
+   → Answer: 5
+47. Pattern: 5*2
+   Question: 5 * 2
+   → Answer: 10
+48. Pattern: 5*3
+   Question: 5 * 3
+   → Answer: 15
+49. Pattern: 5*4
+   Question: 5 * 4
+   → Answer: 20
+50. Pattern: 5*5
+   Question: 5 * 5
+   → Answer: 25
+51. Pattern: 5*6
+   Question: 5 * 6
+   → Answer: 30
+52. Pattern: 5*7
+   Question: 5 * 7
+   → Answer: 35
+53. Pattern: 5*8
+   Question: 5 * 8
+   → Answer: 40
+54. Pattern: 5*9
+   Question: 5 * 9
+   → Answer: 45
+55. Pattern: 5*10
+   Question: 5 * 10
+   → Answer: 50
+56. Pattern: 5*0:10
+   Question: 5 * 4
+   → Answer: 20
+57. Pattern: 5*0:10
+   Question: 5 * 3
+   → Answer: 15
+58. Pattern: 5*0:10
+   Question: 5 * 10
+   → Answer: 50
+59. Pattern: 5*0:10
+   Question: 5 * 9
+   → Answer: 45
+60. Pattern: 5*0:10
+   Question: 5 * 1
+   → Answer: 5
+61. Pattern: 1:5*0:9
+   Question: 4 * 4
+   → Answer: 16
+62. Pattern: 1:5*0:9
+   Question: 4 * 2
+   → Answer: 8
+63. Pattern: 1:5*0:9
+   Question: 4 * 0
+   → Answer: 0
+64. Pattern: 1:5*0:9
+   Question: 5 * 5
+   → Answer: 25
+65. Pattern: 1:5*0:9
+   Question: 4 * 8
+   → Answer: 32
+66. Pattern: 1:5*0:9
+   Question: 1 * 2
+   → Answer: 2
+67. Pattern: 1:5*0:9
+   Question: 1 * 9
+   → Answer: 9
+68. Pattern: 1:5*0:9
+   Question: 5 * 2
+   → Answer: 10
+69. Pattern: 1:5*0:9
+   Question: 4 * 0
+   → Answer: 0
+70. Pattern: 1:5*0:9
+   Question: 1 * 5
+   → Answer: 5
+71. Pattern: 6*1
+   Question: 6 * 1
+   → Answer: 6
+72. Pattern: 6*2
+   Question: 6 * 2
+   → Answer: 12
+73. Pattern: 6*3
+   Question: 6 * 3
+   → Answer: 18
+74. Pattern: 6*4
+   Question: 6 * 4
+   → Answer: 24
+75. Pattern: 6*5
+   Question: 6 * 5
+   → Answer: 30
+76. Pattern: 6*6
+   Question: 6 * 6
+   → Answer: 36
+77. Pattern: 6*7
+   Question: 6 * 7
+   → Answer: 42
+78. Pattern: 6*8
+   Question: 6 * 8
+   → Answer: 48
+79. Pattern: 6*9
+   Question: 6 * 9
+   → Answer: 54
+80. Pattern: 6*10
+   Question: 6 * 10
+   → Answer: 60
+81. Pattern: 6*0:10
+   Question: 6 * 9
+   → Answer: 54
+82. Pattern: 6*0:10
+   Question: 6 * 2
+   → Answer: 12
+83. Pattern: 6*0:10
+   Question: 6 * 0
+   → Answer: 0
+84. Pattern: 6*0:10
+   Question: 6 * 9
+   → Answer: 54
+85. Pattern: 6*0:10
+   Question: 6 * 2
+   → Answer: 12
+86. Pattern: 7*1
+   Question: 7 * 1
+   → Answer: 7
+87. Pattern: 7*2
+   Question: 7 * 2
+   → Answer: 14
+88. Pattern: 7*3
+   Question: 7 * 3
+   → Answer: 21
+89. Pattern: 7*4
+   Question: 7 * 4
+   → Answer: 28
+90. Pattern: 7*5
+   Question: 7 * 5
+   → Answer: 35
+91. Pattern: 7*6
+   Question: 7 * 6
+   → Answer: 42
+92. Pattern: 7*7
+   Question: 7 * 7
+   → Answer: 49
+93. Pattern: 7*8
+   Question: 7 * 8
+   → Answer: 56
+94. Pattern: 7*9
+   Question: 7 * 9
+   → Answer: 63
+95. Pattern: 7*10
+   Question: 7 * 10
+   → Answer: 70
+96. Pattern: 7*0:10
+   Question: 7 * 0
+   → Answer: 0
+97. Pattern: 7*0:10
+   Question: 7 * 10
+   → Answer: 70
+98. Pattern: 7*0:10
+   Question: 7 * 4
+   → Answer: 28
+99. Pattern: 7*0:10
+   Question: 7 * 3
+   → Answer: 21
+100. Pattern: 7*0:10
+   Question: 7 * 1
+   → Answer: 7
+101. Pattern: 8*1
+   Question: 8 * 1
+   → Answer: 8
+102. Pattern: 8*2
+   Question: 8 * 2
+   → Answer: 16
+103. Pattern: 8*3
+   Question: 8 * 3
+   → Answer: 24
+104. Pattern: 8*4
+   Question: 8 * 4
+   → Answer: 32
+105. Pattern: 8*5
+   Question: 8 * 5
+   → Answer: 40
+106. Pattern: 8*6
+   Question: 8 * 6
+   → Answer: 48
+107. Pattern: 8*7
+   Question: 8 * 7
+   → Answer: 56
+108. Pattern: 8*8
+   Question: 8 * 8
+   → Answer: 64
+109. Pattern: 8*9
+   Question: 8 * 9
+   → Answer: 72
+110. Pattern: 8*10
+   Question: 8 * 10
+   → Answer: 80
+111. Pattern: 8*0:10
+   Question: 8 * 1
+   → Answer: 8
+112. Pattern: 8*0:10
+   Question: 8 * 5
+   → Answer: 40
+113. Pattern: 8*0:10
+   Question: 8 * 8
+   → Answer: 64
+114. Pattern: 8*0:10
+   Question: 8 * 9
+   → Answer: 72
+115. Pattern: 8*0:10
+   Question: 8 * 6
+   → Answer: 48
+116. Pattern: 9*1
+   Question: 9 * 1
+   → Answer: 9
+117. Pattern: 9*2
+   Question: 9 * 2
+   → Answer: 18
+118. Pattern: 9*3
+   Question: 9 * 3
+   → Answer: 27
+119. Pattern: 9*4
+   Question: 9 * 4
+   → Answer: 36
+120. Pattern: 9*5
+   Question: 9 * 5
+   → Answer: 45
+121. Pattern: 9*6
+   Question: 9 * 6
+   → Answer: 54
+122. Pattern: 9*7
+   Question: 9 * 7
+   → Answer: 63
+123. Pattern: 9*8
+   Question: 9 * 8
+   → Answer: 72
+124. Pattern: 9*9
+   Question: 9 * 9
+   → Answer: 81
+125. Pattern: 9*10
+   Question: 9 * 10
+   → Answer: 90
+126. Pattern: 9*0:10
+   Question: 9 * 1
+   → Answer: 9
+127. Pattern: 9*0:10
+   Question: 9 * 3
+   → Answer: 27
+128. Pattern: 9*0:10
+   Question: 9 * 5
+   → Answer: 45
+129. Pattern: 9*0:10
+   Question: 9 * 2
+   → Answer: 18
+130. Pattern: 9*0:10
+   Question: 9 * 4
+   → Answer: 36
+131. Pattern: 1:9*0:9
+   Question: 2 * 7
+   → Answer: 14
+132. Pattern: 1:9*0:9
+   Question: 2 * 3
+   → Answer: 6
+133. Pattern: 1:9*0:9
+   Question: 3 * 6
+   → Answer: 18
+134. Pattern: 1:9*0:9
+   Question: 5 * 5
+   → Answer: 25
+135. Pattern: 1:9*0:9
+   Question: 3 * 6
+   → Answer: 18
+136. Pattern: 1:9*0:9
+   Question: 2 * 3
+   → Answer: 6
+137. Pattern: 1:9*0:9
+   Question: 3 * 1
+   → Answer: 3
+138. Pattern: 1:9*0:9
+   Question: 6 * 0
+   → Answer: 0
+139. Pattern: 1:9*0:9
+   Question: 5 * 0
+   → Answer: 0
+140. Pattern: 1:9*0:9
+   Question: 4 * 4
+   → Answer: 16
+
+File: mul_hard.txt
+--------------------------------------------------
+1. Pattern: 0:12*0:12
+   Question: 2 * 3
+   → Answer: 6
+2. Pattern: 0:12*0:12
+   Question: 12 * 8
+   → Answer: 96
+3. Pattern: 0:12*0:12
+   Question: 10 * 0
+   → Answer: 0
+4. Pattern: 0:12*0:12
+   Question: 5 * 12
+   → Answer: 60
+5. Pattern: 0:12*0:12
+   Question: 5 * 10
+   → Answer: 50
+6. Pattern: 0:100*10
+   Question: 68 * 10
+   → Answer: 680
+7. Pattern: 0:100*10
+   Question: 75 * 10
+   → Answer: 750
+8. Pattern: 0:100*10
+   Question: 99 * 10
+   → Answer: 990
+9. Pattern: 0:100*10
+   Question: 5 * 10
+   → Answer: 50
+10. Pattern: 0:100*10
+   Question: 83 * 10
+   → Answer: 830
+11. Pattern: 0:100*5
+   Question: 11 * 5
+   → Answer: 55
+12. Pattern: 0:100*5
+   Question: 60 * 5
+   → Answer: 300
+13. Pattern: 0:100*5
+   Question: 48 * 5
+   → Answer: 240
+14. Pattern: 0:100*5
+   Question: 68 * 5
+   → Answer: 340
+15. Pattern: 0:100*5
+   Question: 66 * 5
+   → Answer: 330
+16. Pattern: 0:100*2,3
+   Question: 0 * 2
+   → Answer: 0
+17. Pattern: 0:100*2,3
+   Question: 67 * 3
+   → Answer: 201
+18. Pattern: 0:100*2,3
+   Question: 64 * 2
+   → Answer: 128
+19. Pattern: 0:100*2,3
+   Question: 55 * 2
+   → Answer: 110
+20. Pattern: 0:100*2,3
+   Question: 33 * 2
+   → Answer: 66
+21. Pattern: 0:100*4,6
+   Question: 23 * 6
+   → Answer: 138
+22. Pattern: 0:100*4,6
+   Question: 96 * 4
+   → Answer: 384
+23. Pattern: 0:100*4,6
+   Question: 79 * 4
+   → Answer: 316
+24. Pattern: 0:100*4,6
+   Question: 82 * 6
+   → Answer: 492
+25. Pattern: 0:100*4,6
+   Question: 37 * 4
+   → Answer: 148
+26. Pattern: 0:100*7:9
+   Question: 95 * 8
+   → Answer: 760
+27. Pattern: 0:100*7:9
+   Question: 40 * 8
+   → Answer: 320
+28. Pattern: 0:100*7:9
+   Question: 74 * 9
+   → Answer: 666
+29. Pattern: 0:100*7:9
+   Question: 62 * 8
+   → Answer: 496
+30. Pattern: 0:100*7:9
+   Question: 61 * 7
+   → Answer: 427
+31. Pattern: 0:100*0:10
+   Question: 76 * 4
+   → Answer: 304
+32. Pattern: 0:100*0:10
+   Question: 40 * 10
+   → Answer: 400
+33. Pattern: 0:100*0:10
+   Question: 69 * 8
+   → Answer: 552
+34. Pattern: 0:100*0:10
+   Question: 27 * 7
+   → Answer: 189
+35. Pattern: 0:100*0:10
+   Question: 70 * 0
+   → Answer: 0
+36. Pattern: 0:50*0:20
+   Question: 46 * 13
+   → Answer: 598
+37. Pattern: 0:50*0:20
+   Question: 46 * 12
+   → Answer: 552
+38. Pattern: 0:50*0:20
+   Question: 0 * 2
+   → Answer: 0
+39. Pattern: 0:50*0:20
+   Question: 3 * 8
+   → Answer: 24
+40. Pattern: 0:50*0:20
+   Question: 40 * 7
+   → Answer: 280
+41. Pattern: 0:40*0:25
+   Question: 38 * 0
+   → Answer: 0
+42. Pattern: 0:40*0:25
+   Question: 20 * 11
+   → Answer: 220
+43. Pattern: 0:40*0:25
+   Question: 2 * 6
+   → Answer: 12
+44. Pattern: 0:40*0:25
+   Question: 15 * 0
+   → Answer: 0
+45. Pattern: 0:40*0:25
+   Question: 31 * 24
+   → Answer: 744
+46. Pattern: 0:33*0:30
+   Question: 13 * 2
+   → Answer: 26
+47. Pattern: 0:33*0:30
+   Question: 4 * 12
+   → Answer: 48
+48. Pattern: 0:33*0:30
+   Question: 32 * 1
+   → Answer: 32
+49. Pattern: 0:33*0:30
+   Question: 8 * 14
+   → Answer: 112
+50. Pattern: 0:33*0:30
+   Question: 15 * 23
+   → Answer: 345
+
+File: mul_med.txt
+--------------------------------------------------
+1. Pattern: 1:9*0:9
+   Question: 5 * 0
+   → Answer: 0
+2. Pattern: 1:9*0:9
+   Question: 1 * 5
+   → Answer: 5
+3. Pattern: 1:9*0:9
+   Question: 4 * 0
+   → Answer: 0
+4. Pattern: 1:9*0:9
+   Question: 1 * 2
+   → Answer: 2
+5. Pattern: 1:9*0:9
+   Question: 2 * 1
+   → Answer: 2
+6. Pattern: 10*1
+   Question: 10 * 1
+   → Answer: 10
+7. Pattern: 10*2
+   Question: 10 * 2
+   → Answer: 20
+8. Pattern: 10*3
+   Question: 10 * 3
+   → Answer: 30
+9. Pattern: 10*4
+   Question: 10 * 4
+   → Answer: 40
+10. Pattern: 10*5
+   Question: 10 * 5
+   → Answer: 50
+11. Pattern: 10*6
+   Question: 10 * 6
+   → Answer: 60
+12. Pattern: 10*7
+   Question: 10 * 7
+   → Answer: 70
+13. Pattern: 10*8
+   Question: 10 * 8
+   → Answer: 80
+14. Pattern: 10*9
+   Question: 10 * 9
+   → Answer: 90
+15. Pattern: 10*10
+   Question: 10 * 10
+   → Answer: 100
+16. Pattern: 10*0:10
+   Question: 10 * 6
+   → Answer: 60
+17. Pattern: 10*0:10
+   Question: 10 * 8
+   → Answer: 80
+18. Pattern: 10*0:10
+   Question: 10 * 6
+   → Answer: 60
+19. Pattern: 10*0:10
+   Question: 10 * 8
+   → Answer: 80
+20. Pattern: 10*0:10
+   Question: 10 * 1
+   → Answer: 10
+21. Pattern: 11*1
+   Question: 11 * 1
+   → Answer: 11
+22. Pattern: 11*2
+   Question: 11 * 2
+   → Answer: 22
+23. Pattern: 11*3
+   Question: 11 * 3
+   → Answer: 33
+24. Pattern: 11*4
+   Question: 11 * 4
+   → Answer: 44
+25. Pattern: 11*5
+   Question: 11 * 5
+   → Answer: 55
+26. Pattern: 11*6
+   Question: 11 * 6
+   → Answer: 66
+27. Pattern: 11*7
+   Question: 11 * 7
+   → Answer: 77
+28. Pattern: 11*8
+   Question: 11 * 8
+   → Answer: 88
+29. Pattern: 11*9
+   Question: 11 * 9
+   → Answer: 99
+30. Pattern: 11*10
+   Question: 11 * 10
+   → Answer: 110
+31. Pattern: 11*0:10
+   Question: 11 * 5
+   → Answer: 55
+32. Pattern: 11*0:10
+   Question: 11 * 7
+   → Answer: 77
+33. Pattern: 11*0:10
+   Question: 11 * 5
+   → Answer: 55
+34. Pattern: 11*0:10
+   Question: 11 * 0
+   → Answer: 0
+35. Pattern: 11*0:10
+   Question: 11 * 8
+   → Answer: 88
+36. Pattern: 12*1
+   Question: 12 * 1
+   → Answer: 12
+37. Pattern: 12*2
+   Question: 12 * 2
+   → Answer: 24
+38. Pattern: 12*3
+   Question: 12 * 3
+   → Answer: 36
+39. Pattern: 12*4
+   Question: 12 * 4
+   → Answer: 48
+40. Pattern: 12*5
+   Question: 12 * 5
+   → Answer: 60
+41. Pattern: 12*6
+   Question: 12 * 6
+   → Answer: 72
+42. Pattern: 12*7
+   Question: 12 * 7
+   → Answer: 84
+43. Pattern: 12*8
+   Question: 12 * 8
+   → Answer: 96
+44. Pattern: 12*9
+   Question: 12 * 9
+   → Answer: 108
+45. Pattern: 12*10
+   Question: 12 * 10
+   → Answer: 120
+46. Pattern: 12*0:10
+   Question: 12 * 9
+   → Answer: 108
+47. Pattern: 12*0:10
+   Question: 12 * 4
+   → Answer: 48
+48. Pattern: 12*0:10
+   Question: 12 * 7
+   → Answer: 84
+49. Pattern: 12*0:10
+   Question: 12 * 3
+   → Answer: 36
+50. Pattern: 12*0:10
+   Question: 12 * 9
+   → Answer: 108
+51. Pattern: 0:12*0:12
+   Question: 6 * 11
+   → Answer: 66
+52. Pattern: 0:12*0:12
+   Question: 10 * 6
+   → Answer: 60
+53. Pattern: 0:12*0:12
+   Question: 2 * 3
+   → Answer: 6
+54. Pattern: 0:12*0:12
+   Question: 2 * 4
+   → Answer: 8
+55. Pattern: 0:12*0:12
+   Question: 6 * 11
+   → Answer: 66
+56. Pattern: 0:12*0:12
+   Question: 7 * 4
+   → Answer: 28
+57. Pattern: 0:12*0:12
+   Question: 12 * 2
+   → Answer: 24
+58. Pattern: 0:12*0:12
+   Question: 8 * 3
+   → Answer: 24
+59. Pattern: 0:12*0:12
+   Question: 4 * 5
+   → Answer: 20
+60. Pattern: 0:12*0:12
+   Question: 5 * 8
+   → Answer: 40
+
+File: mul_simple.txt
+--------------------------------------------------
+1. Pattern: 1*1:5
+   Question: 1 * 1
+   → Answer: 1
+2. Pattern: 1*1:5
+   Question: 1 * 2
+   → Answer: 2
+3. Pattern: 1*1:5
+   Question: 1 * 4
+   → Answer: 4
+4. Pattern: 2+2
+   Question: 2 + 2
+   → Answer: 4
+5. Pattern: 2*2
+   Question: 2 * 2
+   → Answer: 4
+6. Pattern: 1*1:5
+   Question: 1 * 2
+   → Answer: 2
+7. Error in pattern: 2+2+2 → too many values to unpack (expected 2)
+8. Pattern: 2*3
+   Question: 2 * 3
+   → Answer: 6
+9. Pattern: 1*1:5
+   Question: 1 * 1
+   → Answer: 1
+10. Error in pattern: 2+2+2+2 → too many values to unpack (expected 2)
+11. Pattern: 2*4
+   Question: 2 * 4
+   → Answer: 8
+12. Pattern: 1*1:5
+   Question: 1 * 5
+   → Answer: 5
+13. Pattern: 3+3
+   Question: 3 + 3
+   → Answer: 6
+14. Pattern: 3*2
+   Question: 3 * 2
+   → Answer: 6
+15. Pattern: 1*1:5
+   Question: 1 * 3
+   → Answer: 3
+16. Error in pattern: 3+3+3 → too many values to unpack (expected 2)
+17. Pattern: 3*3
+   Question: 3 * 3
+   → Answer: 9
+18. Pattern: 1*1:5
+   Question: 1 * 2
+   → Answer: 2
+19. Pattern: 4+4
+   Question: 4 + 4
+   → Answer: 8
+20. Pattern: 4*2
+   Question: 4 * 2
+   → Answer: 8
+21. Pattern: 2*1:4
+   Question: 2 * 4
+   → Answer: 8
+22. Pattern: 2*1:4
+   Question: 2 * 1
+   → Answer: 2
+23. Pattern: 2*1:4
+   Question: 2 * 2
+   → Answer: 4
+24. Pattern: 2*1:4
+   Question: 2 * 3
+   → Answer: 6
+25. Pattern: 2*1:4
+   Question: 2 * 4
+   → Answer: 8
+26. Pattern: 1*1:9
+   Question: 1 * 8
+   → Answer: 8
+27. Pattern: 1*1:9
+   Question: 1 * 3
+   → Answer: 3
+28. Pattern: 1*1:9
+   Question: 1 * 8
+   → Answer: 8
+29. Pattern: 3*1:3
+   Question: 3 * 2
+   → Answer: 6
+30. Pattern: 3*1:3
+   Question: 3 * 1
+   → Answer: 3
+31. Pattern: 3*1:3
+   Question: 3 * 2
+   → Answer: 6
+32. Pattern: 3*1:3
+   Question: 3 * 1
+   → Answer: 3
+33. Pattern: 3*1:3
+   Question: 3 * 3
+   → Answer: 9
+34. Pattern: 4*1:2
+   Question: 4 * 1
+   → Answer: 4
+35. Pattern: 4*1:2
+   Question: 4 * 2
+   → Answer: 8
+36. Pattern: 4*1:2
+   Question: 4 * 1
+   → Answer: 4
+37. Pattern: 4*1:2
+   Question: 4 * 2
+   → Answer: 8
+38. Pattern: 4*1:2
+   Question: 4 * 2
+   → Answer: 8
+39. Pattern: 1*1:9
+   Question: 1 * 7
+   → Answer: 7
+40. Pattern: 1*1:9
+   Question: 1 * 4
+   → Answer: 4
+41. Pattern: 1*1:9
+   Question: 1 * 2
+   → Answer: 2
+42. Pattern: 1:3*1:3
+   Question: 3 * 2
+   → Answer: 6
+43. Pattern: 1:3*1:3
+   Question: 1 * 1
+   → Answer: 1
+44. Pattern: 1:3*1:3
+   Question: 1 * 2
+   → Answer: 2
+45. Pattern: 1:3*1:3
+   Question: 2 * 2
+   → Answer: 4
+46. Pattern: 1:3*1:3
+   Question: 1 * 2
+   → Answer: 2
+47. Pattern: 1*1:9
+   Question: 1 * 8
+   → Answer: 8
+48. Pattern: 1*1:9
+   Question: 1 * 3
+   → Answer: 3
+49. Pattern: 1*1:9
+   Question: 1 * 1
+   → Answer: 1
+50. Pattern: 3*1:3
+   Question: 3 * 1
+   → Answer: 3
+
+File: per_easy.txt
+--------------------------------------------------
+1. Pattern: 50,100%10,20,30,40,50
+   Question: 100 % 50
+   → Answer: 0
+2. Pattern: 50,100%10,20,30,40,50
+   Question: 100 % 20
+   → Answer: 0
+3. Pattern: 50,100%10,20,30,40,50
+   Question: 100 % 30
+   → Answer: 10
+4. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 40
+   → Answer: 10
+5. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+6. Pattern: 10%10,20,30,40,50
+   Question: 10 % 30
+   → Answer: 10
+7. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+8. Pattern: 10%10,20,30,40,50
+   Question: 10 % 10
+   → Answer: 0
+9. Pattern: 10%10,20,30,40,50
+   Question: 10 % 40
+   → Answer: 10
+10. Pattern: 10%10,20,30,40,50
+   Question: 10 % 30
+   → Answer: 10
+11. Pattern: 25,50%20,40,60,80
+   Question: 50 % 20
+   → Answer: 10
+12. Pattern: 25,50%20,40,60,80
+   Question: 50 % 20
+   → Answer: 10
+13. Pattern: 25,50%20,40,60,80
+   Question: 50 % 40
+   → Answer: 10
+14. Pattern: 25,50%20,40,60,80
+   Question: 25 % 80
+   → Answer: 25
+15. Pattern: 25,50%20,40,60,80
+   Question: 25 % 20
+   → Answer: 5
+16. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 30
+   → Answer: 20
+17. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 30
+   → Answer: 20
+18. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 50
+   → Answer: 0
+19. Pattern: 50,100%10,20,30,40,50
+   Question: 100 % 50
+   → Answer: 0
+20. Pattern: 10%10,20,30,40,50
+   Question: 10 % 10
+   → Answer: 0
+21. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+22. Pattern: 10%10,20,30,40,50
+   Question: 10 % 30
+   → Answer: 10
+23. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+24. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+25. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+26. Pattern: 25,50%20,40,60,80
+   Question: 50 % 60
+   → Answer: 50
+27. Pattern: 25,50%20,40,60,80
+   Question: 50 % 40
+   → Answer: 10
+28. Pattern: 25,50%20,40,60,80
+   Question: 25 % 60
+   → Answer: 25
+29. Pattern: 25,50%20,40,60,80
+   Question: 25 % 40
+   → Answer: 25
+30. Pattern: 25,50%20,40,60,80
+   Question: 50 % 40
+   → Answer: 10
+31. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 30
+   → Answer: 20
+32. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 20
+   → Answer: 10
+33. Pattern: 50,100%10,20,30,40,50
+   Question: 100 % 10
+   → Answer: 0
+34. Pattern: 50,100%10,20,30,40,50
+   Question: 50 % 30
+   → Answer: 20
+35. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+36. Pattern: 10%10,20,30,40,50
+   Question: 10 % 40
+   → Answer: 10
+37. Pattern: 10%10,20,30,40,50
+   Question: 10 % 30
+   → Answer: 10
+38. Pattern: 10%10,20,30,40,50
+   Question: 10 % 30
+   → Answer: 10
+39. Pattern: 10%10,20,30,40,50
+   Question: 10 % 50
+   → Answer: 10
+40. Pattern: 10%10,20,30,40,50
+   Question: 10 % 20
+   → Answer: 10
+41. Pattern: 25,50%20,40,60,80
+   Question: 25 % 20
+   → Answer: 5
+42. Pattern: 25,50%20,40,60,80
+   Question: 50 % 80
+   → Answer: 50
+43. Pattern: 25,50%20,40,60,80
+   Question: 25 % 40
+   → Answer: 25
+44. Pattern: 25,50%20,40,60,80
+   Question: 25 % 60
+   → Answer: 25
+45. Pattern: 25,50%20,40,60,80
+   Question: 25 % 20
+   → Answer: 5
+
+File: per_med.txt
+--------------------------------------------------
+1. Pattern: 20%100,200,300,400,500
+   Question: 20 % 200
+   → Answer: 20
+2. Pattern: 20%100,200,300,400,500
+   Question: 20 % 200
+   → Answer: 20
+3. Pattern: 20%100,200,300,400,500
+   Question: 20 % 200
+   → Answer: 20
+4. Pattern: 20%100,200,300,400,500
+   Question: 20 % 100
+   → Answer: 20
+5. Pattern: 20%100,200,300,400,500
+   Question: 20 % 400
+   → Answer: 20
+6. Pattern: 25,75%100,200,300,400,500
+   Question: 25 % 500
+   → Answer: 25
+7. Pattern: 25,75%100,200,300,400,500
+   Question: 75 % 100
+   → Answer: 75
+8. Pattern: 25,75%100,200,300,400,500
+   Question: 75 % 500
+   → Answer: 75
+9. Pattern: 25,75%100,200,300,400,500
+   Question: 25 % 100
+   → Answer: 25
+10. Pattern: 25,75%100,200,300,400,500
+   Question: 75 % 500
+   → Answer: 75
+11. Pattern: 5,15%100;1;9
+   Question: 15 % 700
+   → Answer: 15
+12. Pattern: 5,15%100;1;9
+   Question: 5 % 100
+   → Answer: 5
+13. Pattern: 5,15%100;1;9
+   Question: 5 % 800
+   → Answer: 5
+14. Pattern: 5,15%100;1;9
+   Question: 15 % 800
+   → Answer: 15
+15. Pattern: 5,15%100;1;9
+   Question: 5 % 800
+   → Answer: 5
+16. Pattern: 20,30,40%100;1;9
+   Question: 30 % 600
+   → Answer: 30
+17. Pattern: 20,30,40%100;1;9
+   Question: 20 % 700
+   → Answer: 20
+18. Pattern: 20,30,40%100;1;9
+   Question: 30 % 900
+   → Answer: 30
+19. Pattern: 20,30,40%100;1;9
+   Question: 20 % 900
+   → Answer: 20
+20. Pattern: 20,30,40%100;1;9
+   Question: 20 % 100
+   → Answer: 20
+21. Pattern: 20,40,50,60,80%100;1;10
+   Question: 80 % 200
+   → Answer: 80
+22. Pattern: 20,40,50,60,80%100;1;10
+   Question: 40 % 900
+   → Answer: 40
+23. Pattern: 20,40,50,60,80%100;1;10
+   Question: 60 % 800
+   → Answer: 60
+24. Pattern: 20,40,50,60,80%100;1;10
+   Question: 40 % 100
+   → Answer: 40
+25. Pattern: 20,40,50,60,80%100;1;10
+   Question: 20 % 800
+   → Answer: 20
+
+File: per_simple.txt
+--------------------------------------------------
+1. Pattern: 50%2,4,6,8
+   Question: 50 % 4
+   → Answer: 2
+2. Pattern: 50%2,4,6,8
+   Question: 50 % 6
+   → Answer: 2
+3. Pattern: 50%2,4,6,8
+   Question: 50 % 8
+   → Answer: 2
+4. Pattern: 50%2,4,6,8
+   Question: 50 % 2
+   → Answer: 0
+5. Pattern: 50%2,4,6,8
+   Question: 50 % 6
+   → Answer: 2
+6. Pattern: 100%3,5,7,9
+   Question: 100 % 7
+   → Answer: 2
+7. Pattern: 100%3,5,7,9
+   Question: 100 % 5
+   → Answer: 0
+8. Pattern: 100%3,5,7,9
+   Question: 100 % 3
+   → Answer: 1
+9. Pattern: 100%3,5,7,9
+   Question: 100 % 5
+   → Answer: 0
+10. Pattern: 100%3,5,7,9
+   Question: 100 % 9
+   → Answer: 1
+11. Pattern: 25%4,8
+   Question: 25 % 4
+   → Answer: 1
+12. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+13. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+14. Pattern: 25%4,8
+   Question: 25 % 4
+   → Answer: 1
+15. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+16. Pattern: 50%2,4,6,8
+   Question: 50 % 6
+   → Answer: 2
+17. Pattern: 50%2,4,6,8
+   Question: 50 % 4
+   → Answer: 2
+18. Pattern: 50%2,4,6,8
+   Question: 50 % 8
+   → Answer: 2
+19. Pattern: 50%2,4,6,8
+   Question: 50 % 6
+   → Answer: 2
+20. Pattern: 50%2,4,6,8
+   Question: 50 % 8
+   → Answer: 2
+21. Pattern: 100%3,5,7,9
+   Question: 100 % 7
+   → Answer: 2
+22. Pattern: 100%3,5,7,9
+   Question: 100 % 7
+   → Answer: 2
+23. Pattern: 100%3,5,7,9
+   Question: 100 % 7
+   → Answer: 2
+24. Pattern: 100%3,5,7,9
+   Question: 100 % 5
+   → Answer: 0
+25. Pattern: 100%3,5,7,9
+   Question: 100 % 9
+   → Answer: 1
+26. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+27. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+28. Pattern: 25%4,8
+   Question: 25 % 4
+   → Answer: 1
+29. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+30. Pattern: 25%4,8
+   Question: 25 % 4
+   → Answer: 1
+31. Pattern: 50%2,4,6,8
+   Question: 50 % 8
+   → Answer: 2
+32. Pattern: 50%2,4,6,8
+   Question: 50 % 8
+   → Answer: 2
+33. Pattern: 50%2,4,6,8
+   Question: 50 % 2
+   → Answer: 0
+34. Pattern: 50%2,4,6,8
+   Question: 50 % 8
+   → Answer: 2
+35. Pattern: 50%2,4,6,8
+   Question: 50 % 4
+   → Answer: 2
+36. Pattern: 100%3,5,7,9
+   Question: 100 % 3
+   → Answer: 1
+37. Pattern: 100%3,5,7,9
+   Question: 100 % 5
+   → Answer: 0
+38. Pattern: 100%3,5,7,9
+   Question: 100 % 7
+   → Answer: 2
+39. Pattern: 100%3,5,7,9
+   Question: 100 % 3
+   → Answer: 1
+40. Pattern: 100%3,5,7,9
+   Question: 100 % 3
+   → Answer: 1
+41. Pattern: 25%4,8
+   Question: 25 % 4
+   → Answer: 1
+42. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+43. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+44. Pattern: 25%4,8
+   Question: 25 % 4
+   → Answer: 1
+45. Pattern: 25%4,8
+   Question: 25 % 8
+   → Answer: 1
+
+File: sub_chlg.txt
+--------------------------------------------------
+1. Pattern: 1000:5000-0:1000
+   Question: 3196 - 80
+   → Answer: 3116
+2. Pattern: 1000:5000-0:1000
+   Question: 4308 - 474
+   → Answer: 3834
+3. Pattern: 1000:5000-0:1000
+   Question: 2725 - 497
+   → Answer: 2228
+4. Pattern: 1000:5000-0:1000
+   Question: 4170 - 640
+   → Answer: 3530
+5. Pattern: 1000:5000-0:1000
+   Question: 3756 - 514
+   → Answer: 3242
+6. Pattern: 1000:5000-0:1000
+   Question: 4113 - 734
+   → Answer: 3379
+7. Pattern: 1000:5000-0:1000
+   Question: 1394 - 635
+   → Answer: 759
+8. Pattern: 1000:5000-0:1000
+   Question: 3460 - 510
+   → Answer: 2950
+9. Pattern: 1000:5000-0:1000
+   Question: 1436 - 30
+   → Answer: 1406
+10. Pattern: 1000:5000-0:1000
+   Question: 1226 - 397
+   → Answer: 829
+11. Pattern: 5000:10000-0:5000
+   Question: 6544 - 3102
+   → Answer: 3442
+12. Pattern: 5000:10000-0:5000
+   Question: 8503 - 2578
+   → Answer: 5925
+13. Pattern: 5000:10000-0:5000
+   Question: 5016 - 2061
+   → Answer: 2955
+14. Pattern: 5000:10000-0:5000
+   Question: 8514 - 4059
+   → Answer: 4455
+15. Pattern: 5000:10000-0:5000
+   Question: 8045 - 4590
+   → Answer: 3455
+16. Pattern: 1:50-0:50
+   Question: 16 - 34
+   → Answer: -18
+17. Pattern: 1:50-0:50
+   Question: 7 - 25
+   → Answer: -18
+18. Pattern: 1:50-0:50
+   Question: 21 - 36
+   → Answer: -15
+19. Pattern: 1:50-0:50
+   Question: 46 - 40
+   → Answer: 6
+20. Pattern: 1:50-0:50
+   Question: 48 - 11
+   → Answer: 37
+21. Pattern: 10000:20000-0:10000
+   Question: 19968 - 1443
+   → Answer: 18525
+22. Pattern: 10000:20000-0:10000
+   Question: 14896 - 8346
+   → Answer: 6550
+23. Pattern: 10000:20000-0:10000
+   Question: 15085 - 4793
+   → Answer: 10292
+24. Pattern: 10000:20000-0:10000
+   Question: 17803 - 6990
+   → Answer: 10813
+25. Pattern: 10000:20000-0:10000
+   Question: 18453 - 6184
+   → Answer: 12269
+26. Pattern: 1:500-0:500
+   Question: 331 - 102
+   → Answer: 229
+27. Pattern: 1:500-0:500
+   Question: 381 - 132
+   → Answer: 249
+28. Pattern: 1:500-0:500
+   Question: 288 - 443
+   → Answer: -155
+29. Pattern: 1:500-0:500
+   Question: 409 - 121
+   → Answer: 288
+30. Pattern: 1:500-0:500
+   Question: 297 - 363
+   → Answer: -66
+31. Pattern: 20000:50000-0:50000
+   Question: 36814 - 25521
+   → Answer: 11293
+32. Pattern: 20000:50000-0:50000
+   Question: 24687 - 24461
+   → Answer: 226
+33. Pattern: 20000:50000-0:50000
+   Question: 49494 - 24463
+   → Answer: 25031
+34. Pattern: 20000:50000-0:50000
+   Question: 34652 - 8189
+   → Answer: 26463
+35. Pattern: 20000:50000-0:50000
+   Question: 45161 - 32271
+   → Answer: 12890
+36. Pattern: 0:100000-0:100000
+   Question: 52573 - 53612
+   → Answer: -1039
+37. Pattern: 0:100000-0:100000
+   Question: 31405 - 44291
+   → Answer: -12886
+38. Pattern: 0:100000-0:100000
+   Question: 1448 - 20528
+   → Answer: -19080
+39. Pattern: 0:100000-0:100000
+   Question: 61519 - 25939
+   → Answer: 35580
+40. Pattern: 0:100000-0:100000
+   Question: 69608 - 49559
+   → Answer: 20049
+41. Pattern: 0:100000-0:100000
+   Question: 12047 - 30681
+   → Answer: -18634
+42. Pattern: 0:100000-0:100000
+   Question: 19409 - 91153
+   → Answer: -71744
+43. Pattern: 0:100000-0:100000
+   Question: 99665 - 32020
+   → Answer: 67645
+44. Pattern: 0:100000-0:100000
+   Question: 30768 - 49024
+   → Answer: -18256
+45. Pattern: 0:100000-0:100000
+   Question: 42675 - 27197
+   → Answer: 15478
+46. Pattern: 0:100000-0:100000
+   Question: 74468 - 57415
+   → Answer: 17053
+47. Pattern: 0:100000-0:100000
+   Question: 10540 - 87063
+   → Answer: -76523
+48. Pattern: 0:100000-0:100000
+   Question: 12240 - 41529
+   → Answer: -29289
+49. Pattern: 0:100000-0:100000
+   Question: 6044 - 27279
+   → Answer: -21235
+50. Pattern: 0:100000-0:100000
+   Question: 49340 - 19987
+   → Answer: 29353
+
+File: sub_easy.txt
+--------------------------------------------------
+1. Pattern: 5:9-1:5
+   Question: 9 - 2
+   → Answer: 7
+2. Pattern: 5:9-1:5
+   Question: 8 - 4
+   → Answer: 4
+3. Pattern: 5:9-1:5
+   Question: 7 - 5
+   → Answer: 2
+4. Pattern: 5:9-1:5
+   Question: 9 - 4
+   → Answer: 5
+5. Pattern: 5:9-1:5
+   Question: 8 - 3
+   → Answer: 5
+6. Pattern: 10,20,30,40,50-10
+   Question: 50 - 10
+   → Answer: 40
+7. Pattern: 10,20,30,40,50-10
+   Question: 10 - 10
+   → Answer: 0
+8. Pattern: 10,20,30,40,50-10
+   Question: 20 - 10
+   → Answer: 10
+9. Pattern: 10,20,30,40,50-10
+   Question: 30 - 10
+   → Answer: 20
+10. Pattern: 10,20,30,40,50-10
+   Question: 50 - 10
+   → Answer: 40
+11. Pattern: 10-1:5
+   Question: 10 - 1
+   → Answer: 9
+12. Pattern: 10-1:5
+   Question: 10 - 5
+   → Answer: 5
+13. Pattern: 10-1:5
+   Question: 10 - 2
+   → Answer: 8
+14. Pattern: 10-1:5
+   Question: 10 - 4
+   → Answer: 6
+15. Pattern: 10-1:5
+   Question: 10 - 5
+   → Answer: 5
+16. Pattern: 11:15-1
+   Question: 12 - 1
+   → Answer: 11
+17. Pattern: 11:15-1
+   Question: 12 - 1
+   → Answer: 11
+18. Pattern: 11:15-1
+   Question: 12 - 1
+   → Answer: 11
+19. Pattern: 11:15-1
+   Question: 13 - 1
+   → Answer: 12
+20. Pattern: 11:15-1
+   Question: 15 - 1
+   → Answer: 14
+21. Pattern: 12:15-1:2
+   Question: 14 - 1
+   → Answer: 13
+22. Pattern: 12:15-1:2
+   Question: 15 - 1
+   → Answer: 14
+23. Pattern: 12:15-1:2
+   Question: 13 - 2
+   → Answer: 11
+24. Pattern: 12:15-1:2
+   Question: 14 - 2
+   → Answer: 12
+25. Pattern: 12:15-1:2
+   Question: 14 - 2
+   → Answer: 12
+26. Pattern: 13:15-1:3
+   Question: 15 - 3
+   → Answer: 12
+27. Pattern: 13:15-1:3
+   Question: 14 - 3
+   → Answer: 11
+28. Pattern: 13:15-1:3
+   Question: 14 - 1
+   → Answer: 13
+29. Pattern: 13:15-1:3
+   Question: 14 - 2
+   → Answer: 12
+30. Pattern: 13:15-1:3
+   Question: 13 - 3
+   → Answer: 10
+31. Pattern: 14:17-1:4
+   Question: 16 - 4
+   → Answer: 12
+32. Pattern: 14:17-1:4
+   Question: 16 - 1
+   → Answer: 15
+33. Pattern: 14:17-1:4
+   Question: 14 - 3
+   → Answer: 11
+34. Pattern: 14:17-1:4
+   Question: 14 - 2
+   → Answer: 12
+35. Pattern: 14:17-1:4
+   Question: 14 - 2
+   → Answer: 12
+36. Pattern: 15:19-1:5
+   Question: 15 - 1
+   → Answer: 14
+37. Pattern: 15:19-1:5
+   Question: 19 - 3
+   → Answer: 16
+38. Pattern: 15:19-1:5
+   Question: 15 - 3
+   → Answer: 12
+39. Pattern: 15:19-1:5
+   Question: 19 - 4
+   → Answer: 15
+40. Pattern: 15:19-1:5
+   Question: 16 - 1
+   → Answer: 15
+41. Pattern: 10,20,30,40,50-10
+   Question: 20 - 10
+   → Answer: 10
+42. Pattern: 10,20,30,40,50-10
+   Question: 30 - 10
+   → Answer: 20
+43. Pattern: 10,20,30,40,50-10
+   Question: 40 - 10
+   → Answer: 30
+44. Pattern: 10,20,30,40,50-10
+   Question: 20 - 10
+   → Answer: 10
+45. Pattern: 10,20,30,40,50-10
+   Question: 50 - 10
+   → Answer: 40
+46. Pattern: 11:20-1:10
+   Question: 11 - 5
+   → Answer: 6
+47. Pattern: 11:20-1:10
+   Question: 13 - 1
+   → Answer: 12
+48. Pattern: 11:20-1:10
+   Question: 12 - 2
+   → Answer: 10
+49. Pattern: 11:20-1:10
+   Question: 14 - 3
+   → Answer: 11
+50. Pattern: 11:20-1:10
+   Question: 14 - 4
+   → Answer: 10
+
+File: sub_hard.txt
+--------------------------------------------------
+1. Pattern: 50:100-1:50
+   Question: 85 - 31
+   → Answer: 54
+2. Pattern: 50:100-1:50
+   Question: 71 - 20
+   → Answer: 51
+3. Pattern: 50:100-1:50
+   Question: 74 - 40
+   → Answer: 34
+4. Pattern: 50:100-1:50
+   Question: 89 - 38
+   → Answer: 51
+5. Pattern: 50:100-1:50
+   Question: 55 - 30
+   → Answer: 25
+6. Pattern: 500-100,200,300,400,500
+   Question: 500 - 400
+   → Answer: 100
+7. Pattern: 500-100,200,300,400,500
+   Question: 500 - 400
+   → Answer: 100
+8. Pattern: 500-100,200,300,400,500
+   Question: 500 - 300
+   → Answer: 200
+9. Pattern: 500-100,200,300,400,500
+   Question: 500 - 300
+   → Answer: 200
+10. Pattern: 500-100,200,300,400,500
+   Question: 500 - 400
+   → Answer: 100
+11. Pattern: 500,600,700,800,900,1000-100,200,300,400,500
+   Question: 900 - 200
+   → Answer: 700
+12. Pattern: 500,600,700,800,900,1000-100,200,300,400,500
+   Question: 800 - 200
+   → Answer: 600
+13. Pattern: 500,600,700,800,900,1000-100,200,300,400,500
+   Question: 600 - 300
+   → Answer: 300
+14. Pattern: 500,600,700,800,900,1000-100,200,300,400,500
+   Question: 1000 - 100
+   → Answer: 900
+15. Pattern: 500,600,700,800,900,1000-100,200,300,400,500
+   Question: 600 - 100
+   → Answer: 500
+16. Pattern: 100:200-1:100
+   Question: 156 - 83
+   → Answer: 73
+17. Pattern: 100:200-1:100
+   Question: 184 - 13
+   → Answer: 171
+18. Pattern: 100:200-1:100
+   Question: 125 - 32
+   → Answer: 93
+19. Pattern: 100:200-1:100
+   Question: 190 - 61
+   → Answer: 129
+20. Pattern: 100:200-1:100
+   Question: 107 - 21
+   → Answer: 86
+21. Pattern: 200:400-1:200
+   Question: 295 - 156
+   → Answer: 139
+22. Pattern: 200:400-1:200
+   Question: 387 - 13
+   → Answer: 374
+23. Pattern: 200:400-1:200
+   Question: 230 - 35
+   → Answer: 195
+24. Pattern: 200:400-1:200
+   Question: 325 - 106
+   → Answer: 219
+25. Pattern: 200:400-1:200
+   Question: 308 - 9
+   → Answer: 299
+26. Pattern: 400:600-1:400
+   Question: 556 - 255
+   → Answer: 301
+27. Pattern: 400:600-1:400
+   Question: 569 - 31
+   → Answer: 538
+28. Pattern: 400:600-1:400
+   Question: 576 - 319
+   → Answer: 257
+29. Pattern: 400:600-1:400
+   Question: 590 - 126
+   → Answer: 464
+30. Pattern: 400:600-1:400
+   Question: 496 - 183
+   → Answer: 313
+31. Pattern: 600:800-1:600
+   Question: 649 - 61
+   → Answer: 588
+32. Pattern: 600:800-1:600
+   Question: 647 - 80
+   → Answer: 567
+33. Pattern: 600:800-1:600
+   Question: 750 - 382
+   → Answer: 368
+34. Pattern: 600:800-1:600
+   Question: 656 - 135
+   → Answer: 521
+35. Pattern: 600:800-1:600
+   Question: 742 - 402
+   → Answer: 340
+36. Pattern: 800:1000-1:800
+   Question: 904 - 541
+   → Answer: 363
+37. Pattern: 800:1000-1:800
+   Question: 971 - 1
+   → Answer: 970
+38. Pattern: 800:1000-1:800
+   Question: 968 - 565
+   → Answer: 403
+39. Pattern: 800:1000-1:800
+   Question: 867 - 149
+   → Answer: 718
+40. Pattern: 800:1000-1:800
+   Question: 827 - 15
+   → Answer: 812
+41. Pattern: 300:700-1:300
+   Question: 621 - 273
+   → Answer: 348
+42. Pattern: 300:700-1:300
+   Question: 605 - 31
+   → Answer: 574
+43. Pattern: 300:700-1:300
+   Question: 333 - 299
+   → Answer: 34
+44. Pattern: 300:700-1:300
+   Question: 564 - 198
+   → Answer: 366
+45. Pattern: 300:700-1:300
+   Question: 647 - 244
+   → Answer: 403
+46. Pattern: 500:1000-1:500
+   Question: 897 - 352
+   → Answer: 545
+47. Pattern: 500:1000-1:500
+   Question: 922 - 12
+   → Answer: 910
+48. Pattern: 500:1000-1:500
+   Question: 737 - 341
+   → Answer: 396
+49. Pattern: 500:1000-1:500
+   Question: 903 - 13
+   → Answer: 890
+50. Pattern: 500:1000-1:500
+   Question: 799 - 289
+   → Answer: 510
+
+File: sub_med.txt
+--------------------------------------------------
+1. Pattern: 11:20-1:10
+   Question: 11 - 5
+   → Answer: 6
+2. Pattern: 11:20-1:10
+   Question: 13 - 3
+   → Answer: 10
+3. Pattern: 11:20-1:10
+   Question: 14 - 7
+   → Answer: 7
+4. Pattern: 11:20-1:10
+   Question: 19 - 4
+   → Answer: 15
+5. Pattern: 11:20-1:10
+   Question: 19 - 9
+   → Answer: 10
+6. Pattern: 25:29-1:5
+   Question: 26 - 4
+   → Answer: 22
+7. Pattern: 25:29-1:5
+   Question: 25 - 4
+   → Answer: 21
+8. Pattern: 25:29-1:5
+   Question: 25 - 2
+   → Answer: 23
+9. Pattern: 25:29-1:5
+   Question: 28 - 4
+   → Answer: 24
+10. Pattern: 25:29-1:5
+   Question: 29 - 4
+   → Answer: 25
+11. Pattern: 11:29-10
+   Question: 18 - 10
+   → Answer: 8
+12. Pattern: 11:29-10
+   Question: 18 - 10
+   → Answer: 8
+13. Pattern: 11:29-10
+   Question: 21 - 10
+   → Answer: 11
+14. Pattern: 11:29-10
+   Question: 14 - 10
+   → Answer: 4
+15. Pattern: 11:29-10
+   Question: 11 - 10
+   → Answer: 1
+16. Pattern: 50,60,70,80,90-10,20,30,40,50
+   Question: 60 - 30
+   → Answer: 30
+17. Pattern: 50,60,70,80,90-10,20,30,40,50
+   Question: 90 - 10
+   → Answer: 80
+18. Pattern: 50,60,70,80,90-10,20,30,40,50
+   Question: 90 - 50
+   → Answer: 40
+19. Pattern: 50,60,70,80,90-10,20,30,40,50
+   Question: 60 - 20
+   → Answer: 40
+20. Pattern: 50,60,70,80,90-10,20,30,40,50
+   Question: 60 - 10
+   → Answer: 50
+21. Pattern: 11:29-1:11
+   Question: 18 - 10
+   → Answer: 8
+22. Pattern: 11:29-1:11
+   Question: 17 - 6
+   → Answer: 11
+23. Pattern: 11:29-1:11
+   Question: 28 - 9
+   → Answer: 19
+24. Pattern: 11:29-1:11
+   Question: 12 - 4
+   → Answer: 8
+25. Pattern: 11:29-1:11
+   Question: 11 - 4
+   → Answer: 7
+26. Pattern: 30:49-1:30
+   Question: 39 - 13
+   → Answer: 26
+27. Pattern: 30:49-1:30
+   Question: 35 - 25
+   → Answer: 10
+28. Pattern: 30:49-1:30
+   Question: 46 - 17
+   → Answer: 29
+29. Pattern: 30:49-1:30
+   Question: 44 - 7
+   → Answer: 37
+30. Pattern: 30:49-1:30
+   Question: 31 - 25
+   → Answer: 6
+31. Pattern: 50:70-1:50
+   Question: 70 - 45
+   → Answer: 25
+32. Pattern: 50:70-1:50
+   Question: 57 - 40
+   → Answer: 17
+33. Pattern: 50:70-1:50
+   Question: 69 - 28
+   → Answer: 41
+34. Pattern: 50:70-1:50
+   Question: 69 - 11
+   → Answer: 58
+35. Pattern: 50:70-1:50
+   Question: 66 - 19
+   → Answer: 47
+36. Pattern: 70:90-1:70
+   Question: 72 - 53
+   → Answer: 19
+37. Pattern: 70:90-1:70
+   Question: 79 - 20
+   → Answer: 59
+38. Pattern: 70:90-1:70
+   Question: 74 - 50
+   → Answer: 24
+39. Pattern: 70:90-1:70
+   Question: 85 - 67
+   → Answer: 18
+40. Pattern: 70:90-1:70
+   Question: 89 - 48
+   → Answer: 41
+41. Pattern: 90:100-1:90
+   Question: 92 - 88
+   → Answer: 4
+42. Pattern: 90:100-1:90
+   Question: 96 - 12
+   → Answer: 84
+43. Pattern: 90:100-1:90
+   Question: 91 - 5
+   → Answer: 86
+44. Pattern: 90:100-1:90
+   Question: 96 - 64
+   → Answer: 32
+45. Pattern: 90:100-1:90
+   Question: 100 - 29
+   → Answer: 71
+46. Pattern: 50:100-1:50
+   Question: 78 - 7
+   → Answer: 71
+47. Pattern: 50:100-1:50
+   Question: 71 - 19
+   → Answer: 52
+48. Pattern: 50:100-1:50
+   Question: 73 - 4
+   → Answer: 69
+49. Pattern: 50:100-1:50
+   Question: 97 - 29
+   → Answer: 68
+50. Pattern: 50:100-1:50
+   Question: 71 - 43
+   → Answer: 28
+
+File: sub_simple.txt
+--------------------------------------------------
+1. Pattern: 1:5-1
+   Question: 4 - 1
+   → Answer: 3
+2. Pattern: 1:5-1
+   Question: 1 - 1
+   → Answer: 0
+3. Pattern: 1:5-1
+   Question: 4 - 1
+   → Answer: 3
+4. Pattern: 1:5-1
+   Question: 4 - 1
+   → Answer: 3
+5. Pattern: 1:5-1
+   Question: 2 - 1
+   → Answer: 1
+6. Pattern: 1:5-1
+   Question: 5 - 1
+   → Answer: 4
+7. Pattern: 1:5-1
+   Question: 5 - 1
+   → Answer: 4
+8. Pattern: 1:5-1
+   Question: 1 - 1
+   → Answer: 0
+9. Pattern: 1:5-1
+   Question: 2 - 1
+   → Answer: 1
+10. Pattern: 1:5-1
+   Question: 4 - 1
+   → Answer: 3
+11. Pattern: 2:5-2
+   Question: 3 - 2
+   → Answer: 1
+12. Pattern: 2:5-2
+   Question: 5 - 2
+   → Answer: 3
+13. Pattern: 2:5-2
+   Question: 2 - 2
+   → Answer: 0
+14. Pattern: 2:5-2
+   Question: 3 - 2
+   → Answer: 1
+15. Pattern: 2:5-2
+   Question: 5 - 2
+   → Answer: 3
+16. Pattern: 3:5-3
+   Question: 4 - 3
+   → Answer: 1
+17. Pattern: 3:5-3
+   Question: 5 - 3
+   → Answer: 2
+18. Pattern: 3:5-3
+   Question: 5 - 3
+   → Answer: 2
+19. Pattern: 3:5-3
+   Question: 4 - 3
+   → Answer: 1
+20. Pattern: 3:5-3
+   Question: 3 - 3
+   → Answer: 0
+21. Pattern: 4:5-4
+   Question: 4 - 4
+   → Answer: 0
+22. Pattern: 4:5-4
+   Question: 4 - 4
+   → Answer: 0
+23. Pattern: 4:5-4
+   Question: 5 - 4
+   → Answer: 1
+24. Pattern: 4:5-4
+   Question: 4 - 4
+   → Answer: 0
+25. Pattern: 4:5-4
+   Question: 5 - 4
+   → Answer: 1
+26. Pattern: 5-1:4
+   Question: 5 - 3
+   → Answer: 2
+27. Pattern: 5-1:4
+   Question: 5 - 4
+   → Answer: 1
+28. Pattern: 5-1:4
+   Question: 5 - 1
+   → Answer: 4
+29. Pattern: 5-1:4
+   Question: 5 - 1
+   → Answer: 4
+30. Pattern: 5-1:4
+   Question: 5 - 1
+   → Answer: 4
+31. Pattern: 6-1:5
+   Question: 6 - 1
+   → Answer: 5
+32. Pattern: 6-1:5
+   Question: 6 - 3
+   → Answer: 3
+33. Pattern: 6-1:5
+   Question: 6 - 5
+   → Answer: 1
+34. Pattern: 6-1:5
+   Question: 6 - 3
+   → Answer: 3
+35. Pattern: 6-1:5
+   Question: 6 - 3
+   → Answer: 3
+36. Pattern: 7-1:6
+   Question: 7 - 1
+   → Answer: 6
+37. Pattern: 7-1:6
+   Question: 7 - 1
+   → Answer: 6
+38. Pattern: 7-1:6
+   Question: 7 - 2
+   → Answer: 5
+39. Pattern: 7-1:6
+   Question: 7 - 5
+   → Answer: 2
+40. Pattern: 7-1:6
+   Question: 7 - 6
+   → Answer: 1
+41. Pattern: 8-1:7
+   Question: 8 - 5
+   → Answer: 3
+42. Pattern: 8-1:7
+   Question: 8 - 3
+   → Answer: 5
+43. Pattern: 8-1:7
+   Question: 8 - 3
+   → Answer: 5
+44. Pattern: 9-1:8
+   Question: 9 - 3
+   → Answer: 6
+45. Pattern: 9-1:8
+   Question: 9 - 5
+   → Answer: 4
+46. Pattern: 5:9-1:5
+   Question: 8 - 5
+   → Answer: 3
+47. Pattern: 5:9-1:5
+   Question: 9 - 1
+   → Answer: 8
+48. Pattern: 5:9-1:5
+   Question: 7 - 2
+   → Answer: 5
+49. Pattern: 5:9-1:5
+   Question: 9 - 2
+   → Answer: 7
+50. Pattern: 5:9-1:5
+   Question: 7 - 1
+   → Answer: 6
