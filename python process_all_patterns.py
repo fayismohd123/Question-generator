@@ -2,25 +2,39 @@ import os
 import random
 import re
 
+def is_float_rule(rule):
+    return any("." in x for x in re.split(r'[:,;]', rule))
+
 def generate_operand(rule):
-    if "," in rule:
-        return random.choice([int(x) for x in rule.split(",")])
-    elif ":" in rule:
-        start, end = map(int, rule.split(":"))
-        return random.randint(min(start, end), max(start, end))
-    elif ";" in rule:
-        m, start, end = map(int, rule.split(";"))
-        return m * random.randint(min(start, end), max(start, end))
-    else:
-        return int(rule)
+    try:
+        if "," in rule:
+            values = [float(x) if "." in x else int(x) for x in rule.split(",")]
+            return random.choice(values)
+        elif ":" in rule:
+            start, end = rule.split(":")
+            if "." in start or "." in end:
+                return round(random.uniform(float(start), float(end)), 2)
+            else:
+                return random.randint(int(start), int(end))
+        elif ";" in rule:
+            m, start, end = rule.split(";")
+            if "." in m or "." in start or "." in end:
+                return round(float(m) * random.uniform(float(start), float(end)), 2)
+            else:
+                return int(m) * random.randint(int(start), int(end))
+        else:
+            return float(rule) if "." in rule else int(rule)
+    except Exception as e:
+        raise ValueError(f"Invalid rule '{rule}': {e}")
+
 
 def evaluate_expression(a, op, b):
     try:
-        if op == "+": return a + b
-        if op == "-": return a - b
-        if op == "*": return a * b
-        if op == "/": return a // b if b != 0 else "undefined"
-        if op == "%": return a % b if b != 0 else "undefined"
+        if op == "+": return round(a + b, 2)
+        if op == "-": return round(a - b, 2)
+        if op == "*": return round(a * b, 2)
+        if op == "/": return round(a / b, 2) if b != 0 else "undefined"
+        if op == "%": return round(a % b, 2) if b != 0 else "undefined"
         return "unsupported"
     except:
         return "error"
@@ -48,7 +62,15 @@ def process_all_files_to_txt(folder, output_file):
                 try:
                     match = re.search(r'([+\-*/%])', pattern)
                     if not match:
-                        raise ValueError("No valid operator found in pattern")
+                        # No operator: Treat as single operand generation
+                        try:
+                            value = generate_operand(pattern.strip())
+                            out.write(f"{i}. Pattern: {pattern}\n")
+                            out.write(f"   Random Value: {value}\n")
+                        except Exception as e:
+                            out.write(f"{i}. Error in single operand: {pattern} → {e}\n")
+                        continue
+
 
                     op = match.group(1)
                     left, right = pattern.split(op)
