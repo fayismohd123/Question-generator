@@ -37,13 +37,14 @@ def evaluate_expression(a, op, b):
         return "error"
 
 def difficulty_to_number(d):
-    return {
+    mapping = {
         "simple": 1,
         "easy": 2,
-        "medium": 3,
+        "medium": 3, "med": 3,
         "hard": 4,
-        "challenging": 5
-    }.get(d.lower(), 0)
+        "challenging": 5, "chlg": 5
+    }
+    return mapping.get(d.lower(), 0)
 
 def process_all_files_to_excel(folder, output_excel):
     rows = []
@@ -70,7 +71,7 @@ def process_all_files_to_excel(folder, output_excel):
             try:
                 match = re.search(r'([+\-*/%])', pattern)
                 if not match:
-                    # Single operand (e.g., 0:9)
+                    # Single operand case
                     a = generate_operand(pattern)
                     labeled = f"a{pattern}"
                     question = f"{a}"
