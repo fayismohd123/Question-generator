@@ -1,119 +1,110 @@
 import os
 import random
-import re
 import pandas as pd
 
-def generate_operand(rule):
-    try:
-        if "," in rule:
-            values = [float(x) if "." in x else int(x) for x in rule.split(",")]
-            return random.choice(values)
-        elif ":" in rule:
-            start, end = rule.split(":")
-            if "." in start or "." in end:
-                return round(random.uniform(float(start), float(end)), 2)
-            else:
-                return random.randint(int(start), int(end))
-        elif ";" in rule:
-            m, start, end = rule.split(";")
-            if "." in m or "." in start or "." in end:
-                return round(float(m) * random.uniform(float(start), float(end)), 2)
-            else:
-                return int(m) * random.randint(int(start), int(end))
+# Get operand values based on range pattern
+def get_operands(pattern):
+    if any(op in pattern for op in "+-*/"):
+        for op in "+-*/":
+            if op in pattern:
+                parts = pattern.split(op)
+                a_range, b_range = parts[0], parts[1]
+                break
+    else:
+        raise ValueError(f"Unsupported pattern format: {pattern}")
+
+    def parse_range(r):
+        r = r.split("===")[0].strip()
+        if ":" in r:
+            start, end = map(float, r.split(":"))
+            return round(random.uniform(start, end), 2) if '.' in r else random.randint(int(start), int(end))
         else:
-            return float(rule) if "." in rule else int(rule)
-    except Exception as e:
-        raise ValueError(f"Invalid rule '{rule}': {e}")
+            return float(r) if '.' in r else int(r)
 
-def evaluate_expression(a, op, b):
-    try:
-        if op == "+": return round(a + b, 2)
-        if op == "-": return round(a - b, 2)
-        if op == "*": return round(a * b, 2)
-        if op == "/": return round(a / b, 2) if b != 0 else "undefined"
-        if op == "%": return round(a % b, 2) if b != 0 else "undefined"
-        return "unsupported"
-    except:
-        return "error"
+    a = parse_range(a_range)
+    b = parse_range(b_range)
+    return a, b, op
 
-def difficulty_to_number(d):
-    mapping = {
-        "simple": 1,
-        "easy": 2,
-        "medium": 3, "med": 3,
-        "hard": 4,
-        "challenging": 5, "chlg": 5
-    }
-    return mapping.get(d.lower(), 0)
+# Create real sentence for story mode
+def generate_story_sentence(a, op, b):
+    names = ["Ravi", "Maya", "Ayaan", "Zara", "Kabir"]
+    items = ["balloons", "toffees", "stickers", "shells", "books"]
+    friend = random.choice(["his friend", "her cousin", "a neighbor", "his classmate"])
 
-def process_all_files_to_excel(folder, output_excel):
+    name = random.choice(names)
+    item = random.choice(items)
+
+    if op == "+":
+        return f"{name} had {a} {item}. Later, {name} got {b} more from {friend}. How many does {name} have now?"
+    elif op == "-":
+        return f"{name} had {a} {item}. {name} gave {b} to {friend}. How many are left with {name}?"
+    elif op == "*":
+        return f"{name} has {a} boxes with {b} {item} in each. How many {item} does {name} have in total?"
+    elif op == "/":
+        return f"{name} had {a} {item} and shared them equally with {b} friends. How many did each get?"
+    else:
+        return f"{a} {op} {b}"
+
+# Generate equation in variable form
+def generate_equation(op):
+    if op == "+": return "a + b"
+    if op == "-": return "a - b"
+    if op == "*": return "a * b"
+    if op == "/": return "a / b"
+    return "a ? b"
+
+# Main processor
+def process_all_files_to_excel(folder_path, output_file):
     rows = []
+    difficulty_map = {"simple": 1, "easy": 2, "medium": 3, "hard": 4, "challenging": 5}
 
-    for file in os.listdir(folder):
-        if not file.endswith(".txt"):
-            continue
+    for filename in os.listdir(folder_path):
+        if not filename.endswith(".txt"): continue
 
-        filepath = os.path.join(folder, file)
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                lines = [line.split("===")[0].strip().rstrip("*") for line in f if line.strip()]
-        except Exception as e:
-            print(f"Error reading {file}: {e}")
-            continue
+        mode_difficulty = filename.replace(".txt", "").split("_")
+        if len(mode_difficulty) != 2: continue
 
-        # Infer type and difficulty from filename
-        parts = file.replace(".txt", "").split("_")
-        type_name = parts[0] if len(parts) > 0 else "unknown"
-        difficulty_name = parts[1] if len(parts) > 1 else "unknown"
-        difficulty_number = difficulty_to_number(difficulty_name)
+        type_name, diff = mode_difficulty
+        difficulty_number = difficulty_map.get(diff, 0)
+        filepath = os.path.join(folder_path, filename)
 
-        for pattern in lines:
+        with open(filepath, "r") as f:
+            patterns = [line.strip() for line in f if line.strip()]
+
+        for pattern in patterns:
             try:
-                match = re.search(r'([+\-*/%])', pattern)
-                if not match:
-                    # Single operand case
-                    a = generate_operand(pattern)
-                    labeled = f"a{pattern}"
-                    question = f"{a}"
-                    rows.append({
-                        "Question": question,
-                        "Type": type_name,
-                        "Pattern": labeled,
-                        "Difficulty": difficulty_number
-                    })
-                    continue
+                clean_pattern = pattern.split("===")[0].strip()
+                a, b, op = get_operands(clean_pattern)
+                equation = generate_equation(op)
 
-                op = match.group(1)
-                parts_raw = pattern.split(op)
-                operands = []
-                labeled_parts = []
+                if type_name == "story":
+                    question = generate_story_sentence(a, op, b)
+                else:
+                    question = f"{a} {op} {b}"
 
-                for i, rule in enumerate(parts_raw):
-                    val = generate_operand(rule.strip())
-                    label = chr(97 + i)  # a, b, c...
-                    operands.append(val)
-                    labeled_parts.append(f"{label}{rule.strip()}")
-
-                labeled_pattern = op.join(labeled_parts)
-                a = operands[0]
-                b = operands[1] if len(operands) > 1 else None
-
-                question = f"{a} {op} {b}" if b is not None else f"{a}"
-
+                pattern_with_vars = f"a{clean_pattern[0:clean_pattern.index(op)]}{op}b{clean_pattern[clean_pattern.index(op)+1:]}"
                 rows.append({
-                    "Question": question,
-                    "Type": type_name,
-                    "Pattern": labeled_pattern,
-                    "Difficulty": difficulty_number
+                    "question": question,
+                    "type": type_name,
+                    "operand_pattern": pattern_with_vars,
+                    "difficulty": difficulty_number,
+                    "equation": equation
                 })
 
             except Exception as e:
-                print(f"Error parsing pattern '{pattern}' in {file}: {e}")
+                rows.append({
+                    "question": f"Error in pattern: {pattern}",
+                    "type": type_name,
+                    "operand_pattern": pattern,
+                    "difficulty": difficulty_number,
+                    "equation": str(e)
+                })
 
     df = pd.DataFrame(rows)
-    df.to_excel(output_excel, index=False)
-    print(f"✅ Output written to: {output_excel}")
+    df.to_excel(output_file, index=False)
+    print(f"\n✅ Questions written to {output_file}")
 
+# Run
 if __name__ == "__main__":
     folder = input("Enter folder path with operand pattern files: ").strip()
     output_excel = "generated_questions.xlsx"
