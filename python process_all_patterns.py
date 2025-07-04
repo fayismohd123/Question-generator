@@ -6,10 +6,34 @@ import pandas as pd
 def get_operands(pattern):
     operands = {}
     clean_pattern = re.split(r"===+", pattern)[0].strip()
-    parts = re.split(r"[+\-*/%]", clean_pattern)
+    # Custom logic to split operands while handling negative values like *-50
+    parts = []
+    current = ''
+    i = 0
+    while i < len(clean_pattern):
+        ch = clean_pattern[i]
+        if ch in '+*/%':
+            parts.append(current.strip())
+            parts.append(ch)
+            current = ''
+        elif ch == '-' and (i == 0 or clean_pattern[i-1] in '+*/%'):
+            current += ch  # it's a negative number
+        elif ch == '-' and i > 0 and clean_pattern[i-1].isdigit():
+            parts.append(current.strip())
+            parts.append('-')
+            current = ''
+        else:
+            current += ch
+        i += 1
+    if current:
+        parts.append(current.strip())
+
+    # Filter only operands (skip operator tokens)
+    operand_parts = [part for part in parts if part not in '+-*/%']
+
     names = ["a", "b", "c", "d", "e", "f"]
 
-    for i, part in enumerate(parts):
+    for i, part in enumerate(operand_parts):
         part = part.strip()
         name = names[i] if i < len(names) else f"x{i}"
 
