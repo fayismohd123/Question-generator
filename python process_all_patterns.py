@@ -99,15 +99,24 @@ def generate_story_question_and_equation(operands, difficulty_number):
     c = operands.get("c", 0)
 
     names = ["Ravi", "Neha", "Ayaan", "Meera", "Zoya", "Kabir", "Sara", "Arjun", "Lina", "Rahul"]
-    items = ["stickers", "pencils", "balloons", "toffees", "coins", "books", "shells", "toys", "marbles", "erasers"]
+    items = ["stickers", "pencils", "balloons", "toffees", "coins", "books", "shells", "toys", "marbles"]
     places = ["school fair", "summer camp", "picnic spot", "grandma's house", "science class"]
-    ops = ["+", "-", "*", "/", "%"]
-    symbols = {
-        "+": ("received", "+"),
-        "-": ("gave", "-"),
-        "*": ("multiplied with", "*"),
-        "/": ("divided among", "/"),
-        "%": ("found remainder of", "%")
+
+    story_templates_2 = {
+        "+": "{name} had {a} {item}. Then, {name} found {b} more. How many {item} does {name} have now?",
+        "-": "{name} had {a} {item}. Then, {name} gave away {b}. How many {item} are left?",
+        "*": "{name} collected {b} boxes of {item}, each with {a} items. How many {item} in total?",
+        "/": "{name} had {a} {item} and shared them equally among {b} friends. How many did each get?",
+        "%": "{name} had {a} {item} and grouped them in {b}. How many were left ungrouped?"
+    }
+
+    story_templates_3 = {
+        ("+", "+"): "At the {place}, {name} had {a} {item}. Then {name} found {b} more and received {c} as a gift. How many in total?",
+        ("-", "-"): "At the {place}, {name} had {a} {item}. Then gave away {b} and lost {c}. How many left?",
+        ("*", "+"): "At the {place}, {name} collected {b} boxes with {a} {item} each, and then got {c} more. How many total?",
+        ("/", "+"): "At the {place}, {name} had {a} {item}, shared among {b} friends, and then found {c} more. How many now?",
+        ("%", "+"): "At the {place}, {name} grouped {a} {item} in sets of {b}, and found {c} more leftover. How many total?",
+        ("*", "-"): "At the {place}, {name} made {b} kits with {a} {item} each, but lost {c}. How many are left?"
     }
 
     name = random.choice(names)
@@ -115,19 +124,13 @@ def generate_story_question_and_equation(operands, difficulty_number):
     place = random.choice(places)
 
     if difficulty_number <= 3:
-        op = random.choice(ops)
-        verb, eq_op = symbols[op]
-        question = f"{name} had {a} {item}. Then, {name} {verb} {b}. How many {item} does {name} have now?"
-        equation = f"a {eq_op} b"
+        op = random.choice(list(story_templates_2.keys()))
+        question = story_templates_2[op].format(name=name, a=a, b=b, item=item)
+        equation = f"a {op} b"
     else:
-        op1, op2 = random.sample(ops, 2)
-        verb1, eq1 = symbols[op1]
-        verb2, eq2 = symbols[op2]
-        question = (
-            f"At the {place}, {name} had {a} {item}. Then, {name} {verb1} {b} and later {verb2} {c}. "
-            f"How many {item} does {name} have now?"
-        )
-        equation = f"a {eq1} b {eq2} c"
+        op_pair = random.choice(list(story_templates_3.keys()))
+        question = story_templates_3[op_pair].format(name=name, a=a, b=b, c=c, item=item, place=place)
+        equation = f"a {op_pair[0]} b {op_pair[1]} c"
 
     return question, equation
 
