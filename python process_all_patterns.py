@@ -53,14 +53,15 @@ def get_operands(pattern):
 
 def attach_variable_names_to_pattern(pattern):
     clean = pattern.split("===")[0].strip()
-    parts = re.split(r"[+\-*/%]", clean)
+    tokens = re.split(r"([+\-*/%])", clean)
     variables = iter("abcdefghijklmnopqrstuvwxyz")
     result = ""
-
-    for part in parts:
-        part = part.strip()
-        if part:
-            result += f"{next(variables)}{part}*"
+    for token in tokens:
+        token = token.strip()
+        if token in "+-*/%":
+            result += token
+        elif token:
+            result += f"{next(variables)}{token}"
     return result
 
 def generate_question_and_equation(mode, operands, difficulty_number, pattern):
@@ -193,7 +194,7 @@ def process_all_files_to_excel(folder_path, output_file):
                 rows.append({
                     "question": question,
                     "type": mode,
-                    "operands": pattern_with_vars,
+                    "operand": pattern_with_vars,
                     "difficulty": difficulty_number,
                     "equation": equation
                 })
@@ -201,12 +202,28 @@ def process_all_files_to_excel(folder_path, output_file):
                 rows.append({
                     "question": f"Error in pattern: {pattern}",
                     "type": mode,
-                    "operands": pattern,
+                    "operand_pattern": pattern,
                     "difficulty": difficulty_number,
                     "equation": str(e)
                 })
 
     df = pd.DataFrame(rows)
+        # Replace short mode names with full operation names
+    operation_map = {
+        "add": "addition",
+        "sub": "subtraction",
+        "mul": "multiplication",
+        "div": "division",
+        "rem": "remainder",
+        "per": "percentage",
+        "story": "story",
+        "time": "time",
+        "currency": "currency",
+        "distance": "distance",
+        "bellring": "bellring"
+    }
+    df["type"] = df["type"].map(operation_map).fillna(df["type"])
+
     df.to_excel(output_file, index=False)
     print(f"✅ Excel file saved to: {output_file}")
 
