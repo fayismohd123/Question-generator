@@ -6,7 +6,6 @@ import pandas as pd
 def get_operands(pattern):
     operands = {}
     clean_pattern = re.split(r"===+", pattern)[0].strip()
-    # Custom logic to split operands while handling negative values like *-50
     parts = []
     current = ''
     i = 0
@@ -17,8 +16,8 @@ def get_operands(pattern):
             parts.append(ch)
             current = ''
         elif ch == '-' and (i == 0 or clean_pattern[i-1] in '+*/%'):
-            current += ch  # it's a negative number
-        elif ch == '-' and i > 0 and clean_pattern[i-1].isdigit():
+            current += ch
+        elif ch == '-' and clean_pattern[i-1].isdigit():
             parts.append(current.strip())
             parts.append('-')
             current = ''
@@ -28,15 +27,11 @@ def get_operands(pattern):
     if current:
         parts.append(current.strip())
 
-    # Filter only operands (skip operator tokens)
     operand_parts = [part for part in parts if part not in '+-*/%']
-
     names = ["a", "b", "c", "d", "e", "f"]
 
     for i, part in enumerate(operand_parts):
-        part = part.strip()
         name = names[i] if i < len(names) else f"x{i}"
-
         try:
             if "," in part:
                 choices = [float(x) if '.' in x else int(x) for x in part.split(",")]
@@ -53,7 +48,6 @@ def get_operands(pattern):
                 value = float(part) if '.' in part else int(part)
         except Exception as e:
             raise ValueError(f"Invalid operand rule '{part}': {e}")
-
         operands[name] = value
     return operands
 
@@ -62,7 +56,6 @@ def attach_variable_names_to_pattern(pattern):
     tokens = re.split(r"([+\-*/%])", clean)
     variables = iter("abcdefghijklmnopqrstuvwxyz")
     result = ""
-
     for token in tokens:
         token = token.strip()
         if token in "+-*/%":
@@ -71,66 +64,79 @@ def attach_variable_names_to_pattern(pattern):
             result += f"{next(variables)}{token}"
     return result
 
-def generate_question_and_equation(mode, operands, difficulty_number):
-    a = operands.get("a", 0)
-    b = operands.get("b", 0)
-    c = operands.get("c", 0)
+def generate_question_and_equation(mode, operands, difficulty_number, pattern):
+    if mode.startswith("story"):
+        return generate_story_question_and_equation(operands, difficulty_number, pattern)
+    
+    symbols = {'add': '+', 'sub': '-', 'mul': '×', 'div': '÷', 'rem': '%'}
+    eq_symbols = {'add': '+', 'sub': '-', 'mul': '*', 'div': '/', 'rem': '%'}
 
-    if mode.startswith("add"):
-        return f"{a} + {b}", "a + b"
-    elif mode.startswith("sub"):
-        return f"{a} - {b}", "a - b"
-    elif mode.startswith("mul"):
-        return f"{a} × {b}", "a * b"
-    elif mode.startswith("div"):
-        return f"{a} ÷ {b}", "a / b"
-    elif mode.startswith("rem"):
-        return f"{a} % {b}", "a % b"
-    elif mode.startswith("per"):
-        return f"{b}% of {a}", "(b / 100) * a"
-    elif mode.startswith("story"):
-        return generate_story_question_and_equation(operands, difficulty_number)
-    else:
-        return f"{a}, {b}, {c}", ""
+    names = list(operands.keys())  # ["a", "b", "c", ...]
+    
+    if mode.startswith("per"):
+        question = f"{{b}}% of {{a}} ="
+        equation = "({b} / 100) * {a}"
+        return question, equation
 
-def generate_story_question_and_equation(operands, difficulty_number):
-    a = operands.get("a", 0)
-    b = operands.get("b", 0)
-    c = operands.get("c", 0)
+    op_key = mode[:3]  # like 'add', 'sub', etc.
+    op_symbol = symbols.get(op_key, '?')
+    eq_symbol = eq_symbols.get(op_key, '?')
 
-    names = ["Ravi", "Neha", "Ayaan", "Meera", "Zoya", "Kabir", "Sara", "Arjun", "Lina", "Rahul"]
+    # Construct question and equation using curly brackets
+    question = f" {op_symbol} ".join([f"{{{n}}}" for n in names]) + " ="
+    equation = f" {eq_symbol} ".join([f"{{{n}}}" for n in names])
+    
+    return question.strip(), equation.strip()
+
+def generate_story_question_and_equation(operands, difficulty_number, pattern):
+    a = "{a}"
+    b = "{b}"
+    c = "{c}"
+
+    names = ["Mubees", "Uthara", "Sanit", "Devika", "Nayana", "Fayis", "Sara", "Arjun", "Lina", "Rahul", "Ayaan"]
     items = ["stickers", "pencils", "balloons", "toffees", "coins", "books", "shells", "toys", "marbles"]
-    places = ["school fair", "summer camp", "picnic spot", "grandma's house", "science class"]
+    intros = [
+        "While walking to the market", "During a school trip", "At the village fair",
+        "In the summer camp", "While visiting grandma's house", "One fine day",
+        "During class break", "On her birthday", "While helping a friend"
+    ]
+    pronouns = {"he": ["Mubees", "Fayis", "Arjun", "Rahul", "Ayaan"], "she": ["Uthara", "Devika", "Nayana", "Sanit", "Lina", "Sara"]}
 
-    story_templates_2 = {
-        "+": "{name} had {a} {item}. Then, {name} found {b} more. How many {item} does {name} have now?",
-        "-": "{name} had {a} {item}. Then, {name} gave away {b}. How many {item} are left?",
-        "*": "{name} collected {b} boxes of {item}, each with {a} items. How many {item} in total?",
-        "/": "{name} had {a} {item} and shared them equally among {b} friends. How many did each get?",
-        "%": "{name} had {a} {item} and grouped them in {b}. How many were left ungrouped?"
+    action_phrases = {
+        "+": ["got", "received", "found", "added", "earned", "was given"],
+        "-": ["gave away", "lost", "returned", "shared", "handed over"],
+        "*": ["bundled into sets of", "collected in groups of", "arranged into packs of", "grouped by"],
+        "/": ["shared equally with friends", "split into parts", "divided among classmates", "distributed into boxes"],
+        "%": ["kept a few as leftover", "left some aside", "had a remainder of", "saved the extras"]
     }
 
-    story_templates_3 = {
-        ("+", "+"): "At the {place}, {name} had {a} {item}. Then {name} found {b} more and received {c} as a gift. How many in total?",
-        ("-", "-"): "At the {place}, {name} had {a} {item}. Then gave away {b} and lost {c}. How many left?",
-        ("*", "+"): "At the {place}, {name} collected {b} boxes with {a} {item} each, and then got {c} more. How many total?",
-        ("/", "+"): "At the {place}, {name} had {a} {item}, shared among {b} friends, and then found {c} more. How many now?",
-        ("%", "+"): "At the {place}, {name} grouped {a} {item} in sets of {b}, and found {c} more leftover. How many total?",
-        ("*", "-"): "At the {place}, {name} made {b} kits with {a} {item} each, but lost {c}. How many are left?"
-    }
+    ops = re.findall(r"[+\-*/%]", pattern.split("===")[0].strip())
 
     name = random.choice(names)
+    pronoun = "he" if name in pronouns["he"] else "she"
     item = random.choice(items)
-    place = random.choice(places)
+    intro = random.choice(intros)
 
-    if difficulty_number <= 3:
-        op = random.choice(list(story_templates_2.keys()))
-        question = story_templates_2[op].format(name=name, a=a, b=b, item=item)
-        equation = f"a {op} b"
+    def verb(op, index=0):
+        return action_phrases[op][index % len(action_phrases[op])]
+
+    if len(ops) == 1:
+        op = ops[0]
+        v = verb(op)
+        question = (
+            f"{intro}, {name} had {a} {item}. Later, {pronoun} {v} {b}. "
+            f"How many {item} does {pronoun} have now?"
+        )
+        equation = f"{{a}} {op} {{b}}"
     else:
-        op_pair = random.choice(list(story_templates_3.keys()))
-        question = story_templates_3[op_pair].format(name=name, a=a, b=b, c=c, item=item, place=place)
-        equation = f"a {op_pair[0]} b {op_pair[1]} c"
+        op1, op2 = ops[:2]
+        v1 = verb(op1, 0)
+        v2 = verb(op2, 1)
+        question = (
+            f"{intro}, {name} had {a} {item}. Later, {pronoun} {v1} {b}, "
+            f"then {v2} {c}. How many {item} does {pronoun} have now?"
+        )
+        equation = f"{{a}} {op1} {{b}} {op2} {{c}}"
 
     return question, equation
 
@@ -144,7 +150,6 @@ def process_all_files_to_excel(folder_path, output_file):
     for filename in os.listdir(folder_path):
         if not filename.endswith(".txt"):
             continue
-
         try:
             mode, diff = filename.replace(".txt", "").split("_")
             difficulty_number = difficulty_map.get(diff.lower(), 0)
@@ -159,7 +164,7 @@ def process_all_files_to_excel(folder_path, output_file):
                 clean_pattern = pattern.split("===")[0].strip()
                 pattern_with_vars = attach_variable_names_to_pattern(clean_pattern)
                 operands = get_operands(pattern)
-                question, equation = generate_question_and_equation(mode, operands, difficulty_number)
+                question, equation = generate_question_and_equation(mode, operands, difficulty_number, pattern)
                 rows.append({
                     "question": question,
                     "type": mode,
