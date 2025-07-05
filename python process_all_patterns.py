@@ -53,15 +53,14 @@ def get_operands(pattern):
 
 def attach_variable_names_to_pattern(pattern):
     clean = pattern.split("===")[0].strip()
-    tokens = re.split(r"([+\-*/%])", clean)
+    parts = re.split(r"[+\-*/%]", clean)
     variables = iter("abcdefghijklmnopqrstuvwxyz")
     result = ""
-    for token in tokens:
-        token = token.strip()
-        if token in "+-*/%":
-            result += token
-        elif token:
-            result += f"{next(variables)}{token}"
+
+    for part in parts:
+        part = part.strip()
+        if part:
+            result += f"{next(variables)}{part}*"
     return result
 
 def generate_question_and_equation(mode, operands, difficulty_number, pattern):
