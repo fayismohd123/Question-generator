@@ -89,54 +89,80 @@ def generate_question_and_equation(mode, operands, difficulty_number, pattern):
     return question.strip(), equation.strip()
 
 def generate_story_question_and_equation(operands, difficulty_number, pattern):
+    # Placeholder variables for curly-braced question and equation
     a = "{a}"
     b = "{b}"
     c = "{c}"
 
+    # Characters, items, and context
     names = ["Mubees", "Uthara", "Sanit", "Devika", "Nayana", "Fayis", "Sara", "Arjun", "Lina", "Rahul", "Ayaan"]
-    items = ["stickers", "pencils", "balloons", "toffees", "coins", "books", "shells", "toys", "marbles"]
-    intros = [
-        "While walking to the market", "During a school trip", "At the village fair",
-        "In the summer camp", "While visiting grandma's house", "One fine day",
-        "During class break", "On her birthday", "While helping a friend"
-    ]
     pronouns = {"he": ["Mubees", "Fayis", "Arjun", "Rahul", "Ayaan"], "she": ["Uthara", "Devika", "Nayana", "Sanit", "Lina", "Sara"]}
+    items = ["pencil", "balloon", "sticker", "marble", "book", "shell", "toy", "eraser", "coin", "toffee"]
+
+    intros = [
+        "on the way home from school", "during a class activity", "while visiting grandma",
+        "at a birthday party", "in the library", "during recess", "in the science fair",
+        "on a picnic", "while helping a friend", "after finishing homework"
+    ]
 
     action_phrases = {
-        "+": ["got", "received", "found", "added", "earned", "was given"],
-        "-": ["gave away", "lost", "returned", "shared", "handed over"],
-        "*": ["bundled into sets of", "collected in groups of", "arranged into packs of", "grouped by"],
-        "/": ["shared equally with friends", "split into parts", "divided among classmates", "distributed into boxes"],
-        "%": ["kept a few as leftover", "left some aside", "had a remainder of", "saved the extras"]
+        "+": ["was gifted", "won", "received", "got from a friend", "collected"],
+        "-": ["lost", "gave away", "shared", "donated", "used up"],
+        "*": ["grouped into sets of", "bundled together", "packed in groups of"],
+        "/": ["divided evenly", "split among friends", "shared with classmates", "distributed among children"],
+        "%": ["had some leftover", "found a remainder", "kept a part aside", "left some aside"]
     }
 
-    ops = re.findall(r"[+\-*/%]", pattern.split("===")[0].strip())
+    midphrases = [
+        "then", "after that", "later on", "following that", "and then"
+    ]
 
+    templates_two = [
+        "{name} had {a} {item}s {intro}. {pronoun_cap} {verb1} {b}. How many {item}s does {pronoun} have now?",
+        "It happened {intro} when {name} started with {a} {item}s. {pronoun_cap} {verb1} {b}. What's left now?",
+        "{name} owned {a} {item}s {intro}. Later, {pronoun} {verb1} {b}. How many remain?"
+    ]
+
+    templates_three = [
+        "{name} had {a} {item}s {intro}. {pronoun_cap} {verb1} {b}, {mid} {verb2} {c}. How many {item}s now?",
+        "During the activity {intro}, {name} began with {a} {item}s. Then {pronoun} {verb1} {b} and {verb2} {c}. What's the total?",
+        "It was {intro} when {name} collected {a} {item}s. {pronoun_cap} {verb1} {b}, {mid} {verb2} {c}. How many left?"
+    ]
+
+    # Decide random story components
     name = random.choice(names)
     pronoun = "he" if name in pronouns["he"] else "she"
     item = random.choice(items)
     intro = random.choice(intros)
+    mid = random.choice(midphrases)
 
-    def verb(op, index=0):
-        return action_phrases[op][index % len(action_phrases[op])]
+    ops = re.findall(r"[+\-*/%]", pattern.split("===")[0].strip())
+
+    # Shuffle verbs for randomness
+    for key in action_phrases:
+        random.shuffle(action_phrases[key])
 
     if len(ops) == 1:
         op = ops[0]
-        v = verb(op)
-        question = (
-            f"{intro}, {name} had {a} {item}. Later, {pronoun} {v} {b}. "
-            f"How many {item} does {pronoun} have now?"
-        )
+        verb1 = action_phrases[op][0]
         equation = f"{{a}} {op} {{b}}"
+        question = random.choice(templates_two).format(
+            name=name, a=a, b=b, c=c,
+            item=item, intro=" " + intro,
+            pronoun=pronoun, pronoun_cap=pronoun.capitalize(),
+            verb1=verb1
+        )
     else:
         op1, op2 = ops[:2]
-        v1 = verb(op1, 0)
-        v2 = verb(op2, 1)
-        question = (
-            f"{intro}, {name} had {a} {item}. Later, {pronoun} {v1} {b}, "
-            f"then {v2} {c}. How many {item} does {pronoun} have now?"
-        )
+        verb1 = action_phrases[op1][0]
+        verb2 = action_phrases[op2][1 % len(action_phrases[op2])]
         equation = f"{{a}} {op1} {{b}} {op2} {{c}}"
+        question = random.choice(templates_three).format(
+            name=name, a=a, b=b, c=c,
+            item=item, intro=" " + intro,
+            pronoun=pronoun, pronoun_cap=pronoun.capitalize(),
+            verb1=verb1, verb2=verb2, mid=mid
+        )
 
     return question, equation
 
@@ -168,7 +194,7 @@ def process_all_files_to_excel(folder_path, output_file):
                 rows.append({
                     "question": question,
                     "type": mode,
-                    "operand_pattern": pattern_with_vars,
+                    "operands": pattern_with_vars,
                     "difficulty": difficulty_number,
                     "equation": equation
                 })
@@ -176,7 +202,7 @@ def process_all_files_to_excel(folder_path, output_file):
                 rows.append({
                     "question": f"Error in pattern: {pattern}",
                     "type": mode,
-                    "operand_pattern": pattern,
+                    "operands": pattern,
                     "difficulty": difficulty_number,
                     "equation": str(e)
                 })
